@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html style="height:100%">
+  <head>
+    <title>ООО "МАКЕТиР"</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset=UTF-8>
+
+    <!--CSS-->
+    <link href="css/bootmetro-responsive.min.css" rel="stylesheet"><!--Адаптация под разные экраны-->
+    <link href="css/bootmetro.min.css" rel="stylesheet"><!--Плиточный вид и т.д.-->
+    <link href="css/lightbox.css" rel="stylesheet" /><!--Галерея-->
+    <link href="css/main.css" rel="stylesheet"><!--Мой код-->
+
+  </head>
+
+  <body style="height:100%">
+
+    <!--JS-->
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="//vk.com/js/api/openapi.js?98"></script><!--VK-->
+    <script src="js/lightbox-2.6.min.js"></script><!--Галерея-->
+    <script src="js/main.js"></script><!--Мой код-->
+
+
+
+ <div class="row-fluid" style="height:100%">
+    <div class="span12" style="height:100%">
+        <div class="row-fluid" style="height:100%">
+            <div class="span2" id="ontop" style="height:100%">
+            <!--Кнопка "наверх" в левой части-->
+                <h3>Наверх</h3>
+            </div>
+            <div class="span8 offset2">
+                <div class="row-fluid">
+                            <div class="span3">
+                            <!--Здесь эмблема сайта-->
+                                <a href="index.html" class="thumbnails"><img src="img/logo.png"></a>
+                            </div>
+                            <div class="span4">
+                            <!--Здесь - шапка сайта - адрес и т.д. -->
+                                                <h1><font face='Times New Roman' color='0078b7'>ООО "МАКЕТиР"</font></h1>
+                                                <address>
+                                                    <strong>ВАШИ ИДЕИ - В РЕАЛЬНЫЕ ВЕЩИ</strong><br><br>
+                                                    <strong>8(351)7-505-204<br>+7-919-323-60-20<br></strong><br>
+                                                </address>
+
+                                    <ul class="thumbnails">
+                                        <li class="thumbnails">
+                                            <div class="span2"><a href="mailto:maketirovanie@gmail.ru"><img src="img/mail.png"></a>
+                                            </div>
+                                            <div class="span8"><strong><a href="mailto: maketirovanie@gmail.ru">maketirovanie@gmail.ru</a><br>
+                                                                        <a href="mailto: maketir@maketir.ru" >maketir@maketir.ru</a><br><br>
+                                                                        <a href="http://vk.com/club39116674">http://vk.com/club39116674</a></strong>
+                                            </div>
+                                        </li>
+                                    </ul>
+                            </div>
+                            <div class="span5">
+                                <!--Поле справа от шапки-->
+                                <div class="row-fluid">
+                                    <div class="span12">
+                                        
+                                        <!-- VK Widget -->
+                                        <div id="vk_groups"></div>
+
+                                    </div>
+                                </div>
+                                    
+                            </div>
+                        </div>
+                        <div class="row-fluid">
+                    <div class="span12">
+                    <!--Здесь находятся вкладки и их содержимое-->
+                        <div class="tabbable"> <!-- Only required for left/right tabs -->
+                            <ul class="nav nav-tabs">
+                                <li class="active"><a href="#tab1" data-toggle="tab"><h3>О нас</h3></a></li>
+                                <!--<li><a href="#tab2" data-toggle="tab"><h3>Новости</h3></a></li>-->
+                                <li><a href="#tab3" data-toggle="tab"><h3>3D печать</h3></a></li>
+                                <li><a href="#tab4" data-toggle="tab"><h3>Лепнина</h3></a></li>
+                            </ul>
+            
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="tab1">
+                                <!--Первая вкладка - активная-->
+                                    <div class="listview grid-layout">
+     
+                                    <div class="listview-item bg-color-blue">
+                                    <div class="pull-left" href="#">
+                                    <img class="listview-item-object" src="img/listview/mbot.png">
+                                    </div>
+                                    <div class="listview-item-body">
+                                    <p class="three-lines">Продажа 3D-принтеров, комплектующих и расходных материалов к ним;</p>
+                                    </div>
+                                    </div>
+                                     
+                                    <div class="listview-item bg-color-grayLight">
+                                    <div class="pull-left" href="#">
+                                    <img class="listview-item-object" src="img/listview/model.png">
+                                    </div>
+                                    <div class="listview-item-body">
+                                    <p class="three-lines">3D-печать прототипов, макетов, сувениров и их оформление;</p>
+                                    </div>
+                                    </div>
+                                     
+                                    <div class="listview-item bg-color-blue">
+                                    <div class="pull-left" href="#">
+                                    <img class="listview-item-object" src="img/listview/scan.png">
+                                    </div>
+                                    <div class="listview-item-body">
+                                    <p class="three-lines">3D-сканирование и обработка объектов;</p>
+                                    </div>
+                                    </div>
+                                     
+                                    <div class="listview-item bg-color-grayLight">
+                                    <div class="pull-left" href="#">
+                                    <img class="listview-item-object" src="img/listview/forma.png">
+                                    </div>
+                                    <div class="listview-item-body">
+                                    <p class="three-lines">Формы для литья по модели, напечатанной на 3D-принтере;</p>
+                                    </div>
+                                    </div>
+                                     
+                                    <div class="listview-item bg-color-blue">
+                                    <div class="pull-left" href="#">
+                                    <img class="listview-item-object" src="img/listview/lepnina.png">
+                                    </div>
+                                    <div class="listview-item-body">
+                                    <p class="three-lines">Изготовление декоративного камня, панно, объёмных картин, лепнины и т.п.;</p>
+                                    </div>
+                                    </div>
+
+                                    <div class="listview-item bg-color-grayLight">
+                                    <div class="pull-left" href="#">
+                                    <img class="listview-item-object" src="img/listview/excel.png">
+                                    </div>
+                                    <div class="listview-item-body">
+                                    <p class="three-lines">Поставка оборудования и комплектующих. Материалы для литья. 
+                                    <a href="content/Materialy_lityo.xls" class="btn btn-danger">ПРАЙС</a></p>
+                                    </div>
+                                    </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane" id="tab3">
+                                <!--Третья вкладка-->
+                                    Cтоимость работ: Услуги 3Д-печати всего 360руб/час работы принтера с учётом материала и НДС (файл для печати расширения STL).<br><br>
+                                    <div class="row-fluid">
+                                        <div class="span6"><img src="img/replicator.jpg"><br>
+                                        <strong>MakerBot Replicator</strong><br>
+                                        Толщина слоя 0,14...0,27мм,<br>
+                                        размеры стола 150 х 220 х 145(высота),<br>
+                                        материал для печати АБС, ПЛА, ПВА и др. различных цветов.
+                                        </div>
+
+                                        <div class="span6"><img src="img/mbot.jpg"><br>
+                                        <strong>MBot CUBE</strong><br>
+                                        Толщина слоя 0,14...0,27мм,<br>
+                                        размеры стола 200 х 200 х 200(высота),<br>
+                                        материал для печати АБС, ПЛА, ПВА и др. различных цветов.<br>
+                                        </div>
+                                            <div class="image-row">
+                                                <div id="one" class="image-set">
+                                                    <script>
+                                                    var one = document.getElementById('one');
+                                                    for(i=44; i>0; i--){
+                                                     one.insertAdjacentHTML("afterEnd", "<a class='example-image-link' href='img/thumb3d/"+i+".jpg' data-lightbox='example-set'><img class='example-image' src='img/thumb3d/"+i+".jpg' width='141' height='101'/></a>");
+                                                    }</script>
+                                                </div>
+                                            </div>
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane" id="tab4">
+                                    <!--Четвертая вкладка-->
+                                    Стоимость работ: Услуги по лепнине от 6000 руб/кв.метр, живопись от 3000 руб/кв.метр.<br>Минимальный объем заказа - от 2 кв.метров.<br>
+                                    <a href="content/Lepnina_v_interyere.doc">Лепнина в интерьере</a><br><br>
+                                    
+                                    <div class="image-row">
+                                        <div id="two" class="image-set">
+                                            <script>
+                                                var two = document.getElementById('two');
+                                                for(i=15; i>0; i--){
+                                                two.insertAdjacentHTML("afterEnd", "<a class='example-image-link' href='img/thumblep/"+i+".jpg' data-lightbox='example-set'><img class='example-image' src='img/thumblep/"+i+".jpg' width='141' height='101'/></a>");
+                                                }
+                                            </script>
+                                        </div>
+                                    </div>
+                                </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="span2">
+            <!--Пустое поле справа-->
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+
+</html>
