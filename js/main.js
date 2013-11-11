@@ -1,4 +1,4 @@
-$(document).ready(function () {
+$(document).ready(function(){
 
 //Здесь начинается код кнопки "наверх"
         var scroll_timer;
@@ -9,7 +9,7 @@ $(document).ready(function () {
         var top = $(document.body).children(0).position().top;
      
         // функция при прокрутке
-        $window.scroll(function () {
+        $window.scroll(function(){
             window.clearTimeout(scroll_timer);
             scroll_timer = window.setTimeout(function() { // используем таймер
                 if($window.scrollTop() <= top+10) /* скрываем, если позиция блока #top и текущий вид окна совпадают.
@@ -32,7 +32,7 @@ $(document).ready(function () {
            $('body,html').animate({scrollTop: 0}, 300);
            });
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
-       VK.Widgets.Group("vk_groups", {mode: 2, wide: 1, width: "auto", height: "auto"}, 39116674);
+       VK.Widgets.Group("vk_groups", {mode: 2, wide: 1, width: "auto", height: 210}, 39116674);
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 

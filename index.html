@@ -15,15 +15,6 @@
 
   <body style="height:100%">
 
-    <!--JS-->
-    <script src="js/jquery-1.10.2.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="//vk.com/js/api/openapi.js?98"></script><!--VK-->
-    <script src="js/lightbox-2.6.min.js"></script><!--Галерея-->
-    <script src="js/main.js"></script><!--Мой код-->
-
-
-
  <div class="row-fluid" style="height:100%">
     <div class="span12" style="height:100%">
         <div class="row-fluid" style="height:100%">
@@ -35,24 +26,24 @@
                 <div class="row-fluid">
                             <div class="span3">
                             <!--Здесь эмблема сайта-->
-                                <a href="index.html" class="thumbnails"><img src="img/logo.png"></a>
+                                <a href="index.html" class="thumbnails"><img id="logo" src="img/logo.png"></a>
                             </div>
                             <div class="span4">
                             <!--Здесь - шапка сайта - адрес и т.д. -->
-                                                <h1><font face='Times New Roman' color='0078b7'>ООО "МАКЕТиР"</font></h1>
-                                                <address>
+                                                <h1>"МАКЕТиР"</h1>
+                                            <address>
                                                     <strong>ВАШИ ИДЕИ - В РЕАЛЬНЫЕ ВЕЩИ</strong><br><br>
-                                                    <strong>8(351)7-505-204<br>+7-919-323-60-20<br></strong><br>
-                                                </address>
+                                                    8(351)7-505-205<br/>8(351)7-505-204<br>+7-919-323-60-20<br><br>
+                                                
 
                                     <ul class="thumbnails">
                                         <li class="thumbnails">
-                                            <div class="span2"><a href="mailto:maketirovanie@gmail.ru"><img src="img/mail.png"></a>
+                                            <div class="span2"><a href="mailto:maketirovanie@gmail.ru"><img id="img_mail" src="img/mail.png"></a>
                                             </div>
-                                            <div class="span8"><strong><a href="mailto: maketirovanie@gmail.ru">maketirovanie@gmail.ru</a><br>
-                                                                        <a href="mailto: maketir@maketir.ru" >maketir@maketir.ru</a><br><br>
-                                                                        <a href="http://vk.com/club39116674">http://vk.com/club39116674</a></strong>
+                                            <div class="span8"><a href="mailto: maketirovanie@gmail.ru">maketirovanie@gmail.ru</a><br>
+                                                                        <a href="mailto: maketir@maketir.ru" >maketir@maketir.ru</a>
                                             </div>
+                                            </address>
                                         </li>
                                     </ul>
                             </div>
@@ -75,75 +66,50 @@
                         <div class="tabbable"> <!-- Only required for left/right tabs -->
                             <ul class="nav nav-tabs">
                                 <li class="active"><a href="#tab1" data-toggle="tab"><h3>О нас</h3></a></li>
-                                <!--<li><a href="#tab2" data-toggle="tab"><h3>Новости</h3></a></li>-->
+                                <li><a href="#tab2" data-toggle="tab"><h3>Новости</h3></a></li>
                                 <li><a href="#tab3" data-toggle="tab"><h3>3D печать</h3></a></li>
                                 <li><a href="#tab4" data-toggle="tab"><h3>Лепнина</h3></a></li>
+                                <li><a href="#tab5" data-toggle="tab"><h3>Контакты</h3></a></li>
                             </ul>
             
                             <div class="tab-content">
                                 <div class="tab-pane active" id="tab1">
                                 <!--Первая вкладка - активная-->
-                                    <div class="listview grid-layout">
-     
-                                    <div class="listview-item bg-color-blue">
-                                    <div class="pull-left" href="#">
-                                    <img class="listview-item-object" src="img/listview/mbot.png">
-                                    </div>
-                                    <div class="listview-item-body">
-                                    <p class="three-lines">Продажа 3D-принтеров, комплектующих и расходных материалов к ним;</p>
-                                    </div>
-                                    </div>
-                                     
-                                    <div class="listview-item bg-color-grayLight">
-                                    <div class="pull-left" href="#">
-                                    <img class="listview-item-object" src="img/listview/model.png">
-                                    </div>
-                                    <div class="listview-item-body">
-                                    <p class="three-lines">3D-печать прототипов, макетов, сувениров и их оформление;</p>
-                                    </div>
-                                    </div>
-                                     
-                                    <div class="listview-item bg-color-blue">
-                                    <div class="pull-left" href="#">
-                                    <img class="listview-item-object" src="img/listview/scan.png">
-                                    </div>
-                                    <div class="listview-item-body">
-                                    <p class="three-lines">3D-сканирование и обработка объектов;</p>
-                                    </div>
-                                    </div>
-                                     
-                                    <div class="listview-item bg-color-grayLight">
-                                    <div class="pull-left" href="#">
-                                    <img class="listview-item-object" src="img/listview/forma.png">
-                                    </div>
-                                    <div class="listview-item-body">
-                                    <p class="three-lines">Формы для литья по модели, напечатанной на 3D-принтере;</p>
-                                    </div>
-                                    </div>
-                                     
-                                    <div class="listview-item bg-color-blue">
-                                    <div class="pull-left" href="#">
-                                    <img class="listview-item-object" src="img/listview/lepnina.png">
-                                    </div>
-                                    <div class="listview-item-body">
-                                    <p class="three-lines">Изготовление декоративного камня, панно, объёмных картин, лепнины и т.п.;</p>
-                                    </div>
-                                    </div>
+                                <ul>
+                                    <li id="box" class="blue">
+                                    <img src="img/listview/mbot.png">
+                                    <div>Продажа 3D-принтеров, комплектующих и расходных материалов к ним;</div></li>
 
-                                    <div class="listview-item bg-color-grayLight">
-                                    <div class="pull-left" href="#">
-                                    <img class="listview-item-object" src="img/listview/excel.png">
-                                    </div>
-                                    <div class="listview-item-body">
-                                    <p class="three-lines">Поставка оборудования и комплектующих. Материалы для литья. 
-                                    <a href="content/Materialy_lityo.xls" class="btn btn-danger">ПРАЙС</a></p>
-                                    </div>
-                                    </div>
-                                    <br><br>
-                                    <iframe width="488" height="280" src="//www.youtube.com/embed/vOUWGNmuBeA?rel=0" frameborder="0" allowfullscreen></iframe>
-                                    <iframe width="488" height="280" src="//www.youtube.com/embed/jVM4gxW2Ams?rel=0" frameborder="0" allowfullscreen></iframe>
+                                    <li id="box" class="gray">
+                                    <img src="img/listview/model.png">
+                                    <div>3D-печать прототипов, макетов, сувениров и их оформление;</div></li>
 
-                                    </div>
+                                    <li id="box" class="blue">
+                                    <img src="img/listview/scan.png">
+                                    <div>3D-сканирование и обработка объектов;</div></li>
+
+                                    <li id="box" class="gray">
+                                    <img src="img/listview/forma.png">
+                                    <div>Формы для литья по модели, напечатанной на 3D-принтере;</div></li>
+
+                                    <li id="box" class="blue">
+                                    <img src="img/listview/lepnina.png">
+                                    <div>Изготовление декоративного камня, панно, объёмных картин, лепнины и т.п.;</div></li>
+
+                                    <li id="box" class="gray">
+                                    <img src="img/listview/excel.png">
+                                    <div>Поставка оборудования и комплектующих. Материалы для литья. 
+                                    <a id="price" href="content/Materialy_lityo.xls" class="btn btn-danger">ПРАЙС</a></div></li>
+                                </ul><br>
+
+                                    <iframe width="400" height="230" src="http://www.youtube.com/embed/vOUWGNmuBeA?rel=0" frameborder="0" allowfullscreen></iframe>
+                                    <iframe width="400" height="230" src="http://www.youtube.com/embed/jVM4gxW2Ams?rel=0" frameborder="0" allowfullscreen></iframe>
+                                </div>
+
+                                <div class="tab-pane" id="tab2">
+                                <!--Вторая вкладка-->
+                                <strong>8 ноября 2013:<br></strong> Начали сотрудничество с "Лабораторией трёхмерной печати".<br>
+                                <a href="http://shop.lab3dprint.ru/">http://shop.lab3dprint.ru/</a><hr>
                                 </div>
 
                                 <div class="tab-pane" id="tab3">
@@ -191,6 +157,31 @@
                                         </div>
                                     </div>
                                 </div>
+
+                                <div class="tab-pane" id="tab5">
+                                    <!--Пятая вкладка-->
+                                    <h3>Реквизиты:</h3>
+                                    <strong>Общество с ограниченной ответственностью "МАКЕТиР"</strong><br>
+                                    <strong>ИНН:</strong> 7448 151 686  <strong>|   КПП</strong> 7448 01 001<br>
+                                    <strong>Юридический адрес:</strong> Россия, 454008, г. Челябинск, Свердловский тракт, 7 Б<br>
+                                    <strong>Банк получатель:</strong>  Отделение N8597 Сбербанка России<br>
+                                    <strong>р/с:</strong> 40702810272190000272  <strong>|  к/с:</strong> 30101810700000000602  <strong>|   БИК:</strong> 047501602<br>
+                                    <strong>ОГРН:</strong> 1127448010161  <strong>|   ОКПО:</strong> 21481162  <strong>|    ОКАТО:</strong> 75401366000<br>
+                                    <strong>Тел.:</strong>  8 (351) 7-505-205, 8 (351) 7-505-204, +7-919-323-60-20<br>
+                                    <strong>http:</strong> <i>www.maketir.ru,  http://vk.com/club39116674;</i><br>
+                                    <strong>e-mail:</strong> <i>Maketirovanie@gmail.com</i><br>
+                                    <strong>Директор ООО «МАКЕТиР»</strong> Ермаков Данил Владимирович<br><br>
+
+                                    <h3>Наши партнеры:</h3>
+                                    <strong>Лаборатория трёхмерной печати</strong><br>
+                                    Поставщик компании MakerBot в России<br>
+                                    <a href="http://shop.lab3dprint.ru/">http://shop.lab3dprint.ru/</a><br>
+                                    Иван: +7(964)536-36-18, Сергей: +7-916-770-78-13<br>
+                                    <strong>Skype:</strong> <i>moshkinivan</i><br>
+                                    <strong>email:</strong> <i>info@lab3dprint.ru</i><br>
+                                    <strong>email:</strong> <i>print@lab3dprint.ru</i> для отправки stl файлов на просчет и дальнейшую печать.<br>
+                                    <strong>Адрес:</strong> Москва, 101000, Хохловский пер. д.7/9, стр.2 офис 301. м.Китай-Город.<br>
+                                </div>
                                     
                                 </div>
                             </div>
@@ -205,6 +196,13 @@
         </div>
     </div>
 </div>
+
+    <!--JS-->
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="http://vk.com/js/api/openapi.js?98"></script><!--VK-->
+    <script src="js/lightbox-2.6.min.js"></script><!--Галерея-->
+    <script src="js/main.js"></script><!--Мой код-->
 
 </body>
 
