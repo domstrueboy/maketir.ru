@@ -1,77 +1,243 @@
 body{
 	font-family:Verdana;
+	opacity: 0.99;
 	font-size: 13px;
-}
 
-#ontop {	background-color:#0078b7;
-			color:white;
-			position:fixed;
-			display:none;
-}
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 
+	margin:0;
+	padding:0;
+	border:0;
+	-webkit-font-smoothing: subpixel-antialiased !important;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	-ms-backface-visibility:     hidden;}
+}
+div{
+	margin:0;
+	border:0;
+	padding:0;
+}
+li{
+	list-style-type:none;
+}
 i{
 	color:#0078b7;
 }
-
 h1{
-	font-family:Times;
+	font-family: 'Playfair Display', serif;
 	color:#0078b7;
-	font-size: 48px;
+	font-size: 65px;
+}
+p{
+	margin:3px;
+}
+footer{
+	width:60%;
+	margin:0 auto;
+	border-top:1px dashed gray;
+	text-align: center;
+	font-size:10px;
+}
+menu{/*Black strip of menu on top*/
+	position:fixed;
+	top:0;
+	left:0;
+	margin:0;
+	padding:0;
+	border:1 solid #4d4d4d;
+	color: white;
+	background:#4d4d4d;
+	width: 100%;
+	height: 26px;
+	font-size: 15px;
+	text-align: center;
+}
+menu img{
+	float:left;
+	border-radius:16px;
+	border: 1px solid black;
+	margin-right: 5px;
+}
+menu h1{
+	float:left;
+	font-size: 18px;
+	margin-top:0px;
+}
+menu ul{
+	margin:0;
+	padding:0;
+	border:1 solid #4d4d4d;
 }
 
-ul{
-	margin: 0;
+#menus li{
+	display:inline-block;
+	padding:3px 4px 3px 4px;
+	border:1px solid #4d4d4d;
+	border-radius: 0 9px 9px 9px;
+}
+#menus li:hover,
+#menus li:hover::after,
+#menus li:focus,
+#menus li:focus::after{
+	border:1px solid white;
 }
 
-#box{
-	width:247px;
-	height:64px;
+.currentMenu{
+	background:white;
+	border:1px solid white;
+	color:black;
+}
+
+.currentTab{
+	display: inline-block;
+}
+
+#tab2, #tab3, #tab4, #tab5, #tab6, #tab7{
+	display: none;
+}
+
+#ontop {/*Button "On Top" in left part*/	
+	background-color:#0078b7;
 	color:white;
-	margin:10px;
-	margin-left:0;
-	margin-top:0;
-	padding:7px;
+	position:fixed;
+	display:none;
+	text-align: center;
+	padding-top: 50px;
+}
+#content{
+	padding-left: 5px;
+}
+#img_mail {
+	margin-right: 5px;
+	height:34px;
+	border-radius:17px;
+
+}
+
+.box{/*прямоугольный блок на первой вкладке*/
+	width:100px;
+	height:100px;
+	margin:0 10px 10px 0;
+	padding:5px;
 	float:left;
 	border:1px solid #303030;
+	border-radius: 0 40px 40px 40px;
+	background:#4d4d4d;
 }
 
-.blue{
-	background:#0078b7;
-}
-
-.gray{
-	background: gray;
-}
-
-#box > img{
-	width:64px;
-	height:64px;
+.box > img{
+	width:98px;
+	height:98px;
 	border:1px solid #303030;
-}
-
-#box > div{
-	width:175px;
-	position:relative;
-	left:70px;
-	bottom:68px;
-	font-size: 13px;
-	line-height:15px;
+	border-radius: 0 33px 33px 33px;
 }
 
 iframe{
 	border:1px solid #303030;
 }
-
-#img_mail{
-	width:40px;
-	height:40px;
+.inline{
+	display:inline-block;
+	float:left;
+	margin:0;
+}
+.inline h1, .inline strong{
+	margin:0;
+	text-shadow:-1px -1px 1px rgba(255,255,255,0.2), 1px 1px 1px rgba(255,255,255,0.2), 1px 1px 1px rgba(0,0,0,0.7);
+}
+.heads{
+	margin-top:25px;
+	margin-bottom:10px;
+}
+#logo img{
+	width:100%;
 }
 
-#logo{
-	margin-top: 10px;
-	margin-left: 5px;
+.example-image-link{
+	margin:0;
+	padding:0;
+	border:0;
 }
-#price{
-	padding:1px 4px 1px 4px;
-	margin-top:3px;
+/*width of divs*/
+.span1{
+	width:10%;
 }
+.span2{
+	width:20%;
+}
+.span3{
+	width:30%;
+}
+.span4{
+	width:40%;
+}
+.span5{
+	width:50%;
+}
+.span6{
+	width:60%;
+}
+.span7{
+	width:70%;
+}
+.span8{
+	width:80%;
+}
+.span9{
+	width:90%;
+}
+.span10{
+	width:100%;
+}
+.offset1{
+	margin:0 0 0 10%;
+}
+/*margin divs from left*/
+.offset2{
+	margin:0 0 0 20%;
+}
+.offset3{
+	margin:0 0 0 30%;
+}
+.offset4{
+	margin:0 0 0 40%;
+}
+.offset5{
+	margin:0 0 0 50%;
+}
+.offset6{
+	margin:0 0 0 60%;
+}
+.offset7{
+	margin:0 0 0 70%;
+}
+.offset8{
+	margin:0 0 0 80%;
+}
+.offset9{
+	margin:0 0 0 90%;
+}
+.offset10{
+	margin:0 0 0 100%;
+}
+
+  /* От ландшафтного экрана телефона до потретного планшета */
+  @media (max-width: 767px) {
+
+  }
+
+  /* От портретного планшета до ландшафтного экрана и настольных дисплеев */
+  @media (min-width: 768px) and (max-width: 979px) {
+
+  }
+
+  /* Большой дисплей */
+  @media (min-width: 1200px) {
+
+  }
+
+  @media (min-width: 768px) {
+
+  }
