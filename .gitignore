@@ -1,3 +1,13 @@
-img/lepnina/
-img/lityo/
-img/prints/
+node_modules/
+
+watch/img/lepnina/
+watch/img/lityo/
+watch/img/prints/
+watch/content/
+watch/fonts/
+
+build/img/lepnina/
+build/img/lityo/
+build/img/prints/
+build/content/
+build/fonts/
