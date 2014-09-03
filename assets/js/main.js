@@ -6,29 +6,83 @@ var app = {
 
 app.init();
 
+var Controller = Backbone.Router.extend({
+    routes: {
+        "": "tab1", // Пустой hash-тэг
+        "tab1": "tab1",
+        "tab2": "tab2",
+        "tab3": "tab3",
+        "tab4": "tab4",
+        "tab5": "tab5",
+        "tab6": "tab6",
+        "tab7": "tab7"
+    },
+
+    tab1: function () {
+        $(".tab").hide(); // Прячем все блоки
+        $("#tab1").show(); // Показываем нужный
+        $(".nav__item-link").on('click', function(){
+            $(this).addClass("active").siblings().removeClass("active");
+        });
+    },
+
+    tab2: function () {
+        $(".tab").hide(); // Прячем все блоки
+        $("#tab2").show(); // Показываем нужный
+        $(".nav__item-link").on('click', function(){
+            $(this).addClass("active").siblings().removeClass("active");
+        });
+    },
+
+    tab3: function () {
+        $(".tab").hide(); // Прячем все блоки
+        $("#tab3").show(); // Показываем нужный
+        $(".nav__item-link").on('click', function(){
+            $(this).addClass("active").siblings().removeClass("active");
+        });
+    },
+
+    tab4: function () {
+        $(".tab").hide(); // Прячем все блоки
+        $("#tab4").show(); // Показываем нужный
+        $(".nav__item-link").on('click', function(){
+            $(this).addClass("active").siblings().removeClass("active");
+        });
+    },
+
+    tab5: function () {
+        $(".tab").hide(); // Прячем все блоки
+        $("#tab5").show(); // Показываем нужный
+        $(".nav__item-link").on('click', function(){
+            $(this).addClass("active").siblings().removeClass("active");
+        });
+    },
+
+    tab6: function () {
+        $(".tab").hide(); // Прячем все блоки
+        $("#tab6").show(); // Показываем нужный
+        $(".nav__item-link").on('click', function(){
+            $(this).addClass("active").siblings().removeClass("active");
+        });
+    },
+
+    tab7: function () {
+
+        $(".tab").hide(); // Прячем все блоки
+        $("#tab7").show(); // Показываем нужный
+        $(".nav__item-link").on('click', function(){
+            $(this).addClass("active").siblings().removeClass("active");
+        });
+    }
+    
+});
+
+var controller = new Controller(); // Создаём контроллер
+
+Backbone.history.start();  // Запускаем HTML5 History push
+
+
 $(document).ready(function(){
-
-//Дальше - объединение пунктов верхнего меню и картинок на первой вкладке
-    $("[class^=menu]").hover(
-        function(){
-            $("#menu"+this.id[4]).css("border","1px solid white");
-            $("#menu"+this.id[4]+"box").css("background","white");
-        },
-        function(){
-            $("#menu"+this.id[4]).css("border","1px solid #4d4d4d");
-            $("#menu"+this.id[4]+"box").css("background","#4d4d4d");
-    });
-
-//Дальше - переходы по вкладкам меню
-
-    $("[class^=menu]").click(function(){
-        $(".currentMenu").removeClass("currentMenu");
-        $("#menu"+this.id[4]).addClass("currentMenu");
-        $(".currentTab").fadeOut(300);
-        $(".currentTab").removeClass("currentTab");
-        $("#tab"+this.id[4]).addClass("currentTab");
-        $(".currentTab").fadeTo(300, 1);
-    });
 
 //Здесь начинается код кнопки "наверх"
         var scroll_timer;
