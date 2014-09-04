@@ -1,88 +1,84 @@
-var app = {
+/*var app = {
+
 	init: function(){
-		return 'init!';
-	}
+		app.router();
+        app.ontop();
+        vkGroups();
+        lookButton();
+	},
+
+    router: function(){
+        
+    };
 };
 
-app.init();
+app.init();*/
+$(document).ready(function(){
 
 var Controller = Backbone.Router.extend({
     routes: {
         "": "tab1", // Пустой hash-тэг
-        "tab1": "tab1",
-        "tab2": "tab2",
-        "tab3": "tab3",
-        "tab4": "tab4",
-        "tab5": "tab5",
-        "tab6": "tab6",
-        "tab7": "tab7"
+        "3dprinters"    :   "tab1",
+        "3dprinting"    :   "tab2",
+        "lityo"         :   "tab3",
+        "lepnina"       :   "tab4",
+        "materials"     :   "tab5",
+        "contacts"      :   "tab6"
     },
 
     tab1: function () {
-        $(".tab").hide(); // Прячем все блоки
+        $(".tabs__item").hide(); // Прячем все блоки
+        $(".nav__item").removeClass("active");
         $("#tab1").show(); // Показываем нужный
-        $(".nav__item-link").on('click', function(){
-            $(this).addClass("active").siblings().removeClass("active");
-        });
+        $(".nav__item_tab1").addClass("active");
+        $('body,html').animate({scrollTop: 0}, 0);
     },
 
     tab2: function () {
-        $(".tab").hide(); // Прячем все блоки
+        $(".tabs__item").hide(); // Прячем все блоки
+        $(".nav__item").removeClass("active");
         $("#tab2").show(); // Показываем нужный
-        $(".nav__item-link").on('click', function(){
-            $(this).addClass("active").siblings().removeClass("active");
-        });
+        $(".nav__item_tab2").addClass("active");
+        $('body,html').animate({scrollTop: 0}, 0);
     },
 
     tab3: function () {
-        $(".tab").hide(); // Прячем все блоки
+        $(".tabs__item").hide(); // Прячем все блоки
+        $(".nav__item").removeClass("active");
         $("#tab3").show(); // Показываем нужный
-        $(".nav__item-link").on('click', function(){
-            $(this).addClass("active").siblings().removeClass("active");
-        });
+        $(".nav__item_tab3").addClass("active");
+        $('body,html').animate({scrollTop: 0}, 0);
     },
 
     tab4: function () {
-        $(".tab").hide(); // Прячем все блоки
+        $(".tabs__item").hide(); // Прячем все блоки
+        $(".nav__item").removeClass("active");
         $("#tab4").show(); // Показываем нужный
-        $(".nav__item-link").on('click', function(){
-            $(this).addClass("active").siblings().removeClass("active");
-        });
+        $(".nav__item_tab4").addClass("active");
+        $('body,html').animate({scrollTop: 0}, 0);
     },
 
     tab5: function () {
-        $(".tab").hide(); // Прячем все блоки
+        $(".tabs__item").hide(); // Прячем все блоки
+        $(".nav__item").removeClass("active");
         $("#tab5").show(); // Показываем нужный
-        $(".nav__item-link").on('click', function(){
-            $(this).addClass("active").siblings().removeClass("active");
-        });
+        $(".nav__item_tab5").addClass("active");
+        $('body,html').animate({scrollTop: 0}, 0);
     },
 
     tab6: function () {
-        $(".tab").hide(); // Прячем все блоки
+        $(".tabs__item").hide(); // Прячем все блоки
+        $(".nav__item").removeClass("active");
         $("#tab6").show(); // Показываем нужный
-        $(".nav__item-link").on('click', function(){
-            $(this).addClass("active").siblings().removeClass("active");
-        });
-    },
-
-    tab7: function () {
-
-        $(".tab").hide(); // Прячем все блоки
-        $("#tab7").show(); // Показываем нужный
-        $(".nav__item-link").on('click', function(){
-            $(this).addClass("active").siblings().removeClass("active");
-        });
+        $(".nav__item_tab6").addClass("active");
+        $('body,html').animate({scrollTop: 0}, 0);
     }
-    
 });
 
 var controller = new Controller(); // Создаём контроллер
 
 Backbone.history.start();  // Запускаем HTML5 History push
 
-
-$(document).ready(function(){
 
 //Здесь начинается код кнопки "наверх"
         var scroll_timer;
@@ -96,32 +92,43 @@ $(document).ready(function(){
         $window.scroll(function(){
             window.clearTimeout(scroll_timer);
             scroll_timer = window.setTimeout(function() { // используем таймер
-                if($window.scrollTop() <= top+10) /* скрываем, если позиция блока #top и текущий вид окна совпадают.
+                if($window.scrollTop() <= top) /* скрываем, если позиция блока #top и текущий вид окна совпадают.
                   +10 - для того чтобы показывать кнопку Наверх как минимум при прокрутке окна вниз на 10 пикселей*/
                 {
                     displayed = false;
-                    $message.fadeOut(300);
+                    $message.fadeOut(100);
                 }
                 else if(displayed == false) // показываем кнопку «Наверх»
                 {
                     displayed = true;
-                    $message.stop(true, true).fadeTo(300,0.5).click(function () { $message.fadeOut(300); });
+                    $message.stop(true, true).fadeTo(100,0.1).on("click", function () { $message.fadeOut(100); });
                 }
             }, 100);
         });
        
-        // Клик по кнопке наверх
-       $('#ontop').click(function(e) {
+        // Функционал кнопки - промотка наверх по клику
+       $('#ontop').on("click", function(e) {
             e.preventDefault();
-           $('body,html').animate({scrollTop: 0}, 300);
-           });
+           $('body,html').animate({scrollTop: 0}, 0);
+        });
 
 ///////////////////////////////////////////////////////////////////////////
 VK.Widgets.Group("vk_groups", {mode: 2, wide: 0, width: "auto" }, 39116674);
 ///////////////////////////////////////////////////////////////////////////
 
-    $("#lookButton").click(function(){
+    $("#lookButton").on("click", function(){
         $("#materialsView").load("./content/materialy_lityo.html");
-        });
+    });
+
+    $("#loadButton").on("click", function(){
+        $("#materialsView").load("./content/materialy_lityo.xls");
+    });
+
+
+    //Starting the dotdotdot
+    $(".products__item").dotdotdot({
+        //  configuration goes here
+        after: "a.readmore"
+    });
 
 });

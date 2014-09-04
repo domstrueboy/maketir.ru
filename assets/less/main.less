@@ -1,7 +1,12 @@
 @container-width: 1170px;
-@header-height: 100px;
+@header-height: 110px;
 @footer-height: 15px;
 @body-font: Verdana;
+@black: rgb(0, 0, 0);
+@white: rgb(255, 255, 255);
+@blue: #0078b7;
+@gray: #4d4d4d;
+@orange: orange;
 
 html{
  	width: 100%;
@@ -29,7 +34,7 @@ body{
 	position: relative;
 }
 
-.wrapper{
+.mainwrapper{
 	position: relative;
 	min-height: 100%;
 	height: auto !important;
@@ -60,20 +65,20 @@ p{
 }
 
 header{/*Black strip of menu on top*/
-	position:fixed;
+	position: fixed;
 	width: 100%;
-	top:0;
-	left:0;
-	margin:0;
-	padding:0;
-	border:1 solid #4d4d4d;
-	color: white;
-	background:#4d4d4d;
+	top: 0;
+	left: 0;
+	margin: 0;
+	padding: 0;
+	border: 1 solid @gray;
+	color: @white;
+	background: @gray;
 	height: @header-height;
 	font-size: 11px;
 	text-align: center;
 	z-index: 1000;
-	opacity: 0.98;
+	opacity: 0.95;
 }
 
 .content{
@@ -81,8 +86,8 @@ header{/*Black strip of menu on top*/
 }
 
 footer{
-	background-color: gray;
-	color: white;
+	background-color: @gray;
+	color: @white;
 	position: relative;
 	margin-top: -@footer-height;
 	height: @footer-height;
@@ -92,18 +97,12 @@ footer{
 	font-size: 10px;
 }
 
-img{
+img, iframe{
 	margin: 0 auto;
 }
 
 i{
-	color:#0078b7;
-}
-
-/* ----------- main.css ---------- */
-
-.cart__box{ //Корзина
-	float: right;
+	color: @blue;
 }
 
 .logo__img{
@@ -113,7 +112,7 @@ i{
 
 .logo__label{
 	font-family: 'Playfair Display', serif;
-	color:#0078b7;
+	color: @blue;
 	font-size: 65px;
 	padding: 0;
 	margin: 0;
@@ -121,52 +120,66 @@ i{
 }
 
 .logo__slogan{
-	color: white;
+	color: @white;
 }
 
-.nav__list{
-	margin:0;
-	padding:0;
-	border:1 solid #4d4d4d;
-}
-
-.nav__item{
+.nav__item-text{
+	background-color: @black;
+	color: @white;
 	float: left;
 	height: @header-height;
-	padding:3px 4px 3px 4px;
-	border:1px solid #4d4d4d;
-	border-radius: 0 15px 15px 15px;
+	padding:10px 1px 1px 1px;
+	border: 1px solid @black;
+	border-left: 1px solid @gray;
 }
-.nav__item:hover,
-.nav__item:hover::after,
-.nav__item:focus,
-.nav__item:focus::after{
-	border:1px solid white;
+.nav__item-text:hover{
+	border: 1px solid @white;
 }
 
 .active{
 	li{
-		background: orange;
-		border: 1px solid orange;
-		color: black;
+		background: @orange;
+		border: 1px solid @orange;
+		color: @black;
 	}
 }
 
-#ontop{/*Button "On Top" in left part*/	
-	background-color:#0078b7;
-	color:white;
-	position:fixed;
-	display:none;
+#ontop{/*Button "On Top" in left part*/
+	background-color: @blue;
+	color: @white;
+	position: fixed;
+	top: 0;
+	display: none;
 	text-align: center;
-	padding-top: @header-height + 30px;
+	padding-top: 20px;
+	z-index: 1001;
+	height: @header-height;
 }
 
+.contacts{
+	padding-top: 2px;
+}
 .contacts__mail-img{
-	height:34px;
-	border-radius:50%;
+	height: 34px;
+	border-radius: 50%;
+}
+.contacts__mail-img:hover{
+	border: 1px solid @orange;
 }
 
-#vk_groups{
-	width: 100%;
+#vk_groups, .video{
 	margin-top: 10px;
+}
+
+.example-image{
+	padding: 1px;
+}
+
+.products__item{
+	height: 300px;
+}
+
+.products__item-link, .products__item-link:hover{
+	color: @black;
+	text-decoration: none;
 }
