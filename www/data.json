@@ -1,0 +1,78 @@
+{
+    "blocks": [  
+        {
+            "rus" : "Грецкий орех",
+            "alias" : "greckiy",
+            "price" : "280"           
+        },      
+        {
+            "rus" : "Фундук",
+            "alias" : "funduk",
+            "price" : "280"           
+        },
+        {
+            "rus" : "Миндаль",
+            "alias" : "mindal",
+            "price" : "250"           
+        },        
+        {
+            "rus" : "Кешью",
+            "alias" : "keshiu",
+            "price" : "230"           
+        },
+        {
+            "rus" : "Пекан",
+            "alias" : "pekan",
+            "price" : "510"           
+        },
+        {
+            "rus" : "Кедровый орех",
+            "alias" : "kedroviy",
+            "price" : "620"           
+        },
+        {
+            "rus" : "Бразильский орех",
+            "alias" : "brazil",
+            "price" : "275"           
+        },
+        {
+            "rus" : "Арахис",
+            "alias" : "arahis",
+            "price" : "110"           
+        },
+        {
+            "rus" : "Фисташки сырые",
+            "alias" : "fistashki",
+            "price" : "280"           
+        },
+        {
+            "rus" : "Фисташки соленые",
+            "alias" : "fistashki-solenye",
+            "price" : "250"           
+        },
+        {
+            "rus" : "Макадамия",
+            "alias" : "makadamiya",
+            "price" : "900"           
+        },
+        {
+            "rus" : "Курага",
+            "alias" : "kuraga",
+            "price" : "165"           
+        },
+        {
+            "rus" : "Финики",
+            "alias" : "finiki",
+            "price" : "120"           
+        },
+        {
+            "rus" : "Чернослив",
+            "alias" : "chernosliv",
+            "price" : "135"           
+        }
+    ]
+}
+
+
+
+

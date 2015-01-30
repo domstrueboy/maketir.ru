@@ -1,0 +1,617 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"paddi",
+				"padding-top"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"prod",
+				"products__item"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"align",
+				"text-align"
+			],
+			[
+				"fo",
+				"footer	Tag"
+			],
+			[
+				"product",
+				"productCollection"
+			],
+			[
+				"t",
+				"table"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"border-r",
+				"border-radius"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"s",
+				"script"
+			],
+			[
+				"div",
+				"div	Tag"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"br",
+				"break"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "assets/index.html",
+			"settings":
+			{
+				"buffer_size": 24074,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 311.0,
+		"selected_items":
+		[
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 464.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print('Please restart Sublime Text to finish installation')"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/H/Dropbox/sites/maketir",
+		"/H/Dropbox/sites/maketir/assets",
+		"/H/Dropbox/sites/maketir/assets/js",
+		"/H/Dropbox/sites/maketir/assets/less",
+		"/H/Dropbox/sites/maketir/watch"
+	],
+	"file_history":
+	[
+		"/H/Dropbox/sites/maketir/watch/products.json",
+		"/H/Dropbox/sites/maketir/assets/less/main.less",
+		"/H/Dropbox/sites/maketir/assets/js/main.js",
+		"/H/Dropbox/sites/maketir/assets/index.html",
+		"/H/Dropbox/sites/maketir/watch/index.html",
+		"/H/Dropbox/sites/maketir/watch/404.html",
+		"/H/Dropbox/sites/maketir/gulpfile.js",
+		"/H/Dropbox/sites/maketir/assets/maketir.sublime-project",
+		"/H/Бобылёв/__Prog/_Номера программ.txt",
+		"/C/Documents and Settings/user/Local Settings/Temp/_tc/1.txt",
+		"/C/Documents and Settings/user/Local Settings/Temp/7zO2ADB.tmp/1.txt",
+		"/H/Dropbox/Ктоя.txt",
+		"/C/Documents and Settings/user/Local Settings/Temp/7zO11CC.tmp/1.txt",
+		"/H/Dropbox/sites/maketir/watch/js/main.js",
+		"/C/Documents and Settings/user/Local Settings/Temp/7zO72B.tmp/1.txt",
+		"/C/Documents and Settings/user/Local Settings/Temp/7zO729.tmp/1.txt",
+		"/H/Dropbox/sites/angular/index.html",
+		"/H/Dropbox/sites/angular/js/controllers.js",
+		"/H/Dropbox/sites/angular/products.json",
+		"/H/Бобылёв/Т-1200/Количество.txt",
+		"/H/Бобылёв/__Из почты/28.11.2014/Уголок/Текстовый документ.txt",
+		"/C/Documents and Settings/user/Local Settings/Temp/7zO226C.tmp/1.txt",
+		"/C/Documents and Settings/user/Local Settings/Temp/7zO18D6.tmp/1.txt",
+		"/H/Dropbox/1.txt",
+		"/C/Documents and Settings/user/Local Settings/Temp/7zO1772.tmp/1.txt",
+		"/C/Documents and Settings/user/Local Settings/Temp/7zO176F.tmp/1.txt",
+		"/C/Documents and Settings/user/Local Settings/Temp/7zO948.tmp/1.txt",
+		"/C/Documents and Settings/user/Local Settings/Temp/7zO942.tmp/1.txt",
+		"/C/Documents and Settings/user/Local Settings/Temp/7zO162C.tmp/1.txt",
+		"/C/Documents and Settings/user/Local Settings/Temp/7zO1628.tmp/1.txt",
+		"/H/Dropbox/Книги на телефоне/Почитать по АС.txt",
+		"/H/Dropbox/tests/angular/angular-phonecat/app/css/app.css",
+		"/H/Dropbox/tests/angular/angular-phonecat/app/js/controllers.js",
+		"/H/Dropbox/tests/angular/angular-phonecat/app/index.html",
+		"/H/Бобылёв/__Из почты/19.11.2014/Заказ 626/Прочесть!!!.txt",
+		"/H/Dropbox/tests/angular/angular-phonecat/app/phones.json",
+		"/H/Dropbox/tests/angular/angular-phonecat/app/phones/motorola-atrix-4g.json",
+		"/H/Dropbox/tests/angular/angular-phonecat/app/phones/phones.json",
+		"/H/LOFTBOX/loftblog первый поток/Вебинары и уроки/19 - JS магазин 5 - заканчиваем с кодом/www/css/style.css",
+		"/H/LOFTBOX/loftblog первый поток/Вебинары и уроки/19 - JS магазин 5 - заканчиваем с кодом/www/index.html",
+		"/H/LOFTBOX/loftblog первый поток/Вебинары и уроки/19 - JS магазин 5 - заканчиваем с кодом/www/js/common.js",
+		"/H/Dropbox/maketir/assets/js/main.js",
+		"/H/Dropbox/maketir/assets/less/main.less",
+		"/H/Dropbox/maketir/assets/index.html",
+		"/H/Dropbox/Книги на телефоне и в читалке/Утреннее правило.txt",
+		"/H/Dropbox/maketir/watch/materials.json",
+		"/D/info/Материалы_литьё2.csv",
+		"/C/Documents and Settings/user/Local Settings/Temp/7zO198E.tmp/1.txt",
+		"/C/Documents and Settings/user/Local Settings/Temp/7zO198A.tmp/1.txt",
+		"/H/Dropbox/сб.txt",
+		"/H/Dropbox/3 круга.txt",
+		"/H/Dropbox/Книги на телефоне и в читалке/Почитать по АС.txt",
+		"/C/Documents and Settings/user/Local Settings/Temp/7zO3EA5.tmp/1.txt",
+		"/C/Documents and Settings/user/Local Settings/Temp/7zO3E95.tmp/1.txt",
+		"/D/info/Материалы_литьё2 libreoffice.html",
+		"/D/info/Материалы_литьё2.htm",
+		"/H/Новая папка/xlsparser.php",
+		"/H/Новая папка/sample.php",
+		"/C/Documents and Settings/user/Local Settings/Temp/7zO98F.tmp/1.txt",
+		"/H/Dropbox/Дневник.txt",
+		"/H/Dropbox/tests/aspect/index.html",
+		"/H/Dropbox/maketir_wrong/assets/index.html",
+		"/H/Dropbox/maketir_wrong/watch/index.html",
+		"/H/LOFTBOX/loftblog первый поток/Вебинары и уроки/19 - JS магазин 5 - заканчиваем с кодом/www/data.json",
+		"/H/Dropbox/maketir/watch/index.html",
+		"/H/Dropbox/maketir/www/js/common.js",
+		"/H/Dropbox/maketir/www/index.html",
+		"/H/Dropbox/maketir/watch/products.json",
+		"/H/Dropbox/maketir/assets/1.txt",
+		"/H/Dropbox/maketir/package.json",
+		"/H/LOFTBOX/loftblog первый поток/Вебинары и уроки/19 - JS магазин 5 - заканчиваем с кодом/www/js/jquery.maskedinput.js",
+		"/H/LOFTBOX/loftblog первый поток/Вебинары и уроки/19 - JS магазин 5 - заканчиваем с кодом/www/js/handlebars.js",
+		"/H/Dropbox/maketir/gulpfile.js",
+		"/H/Dropbox/maketir_wrong/assets/less/main.less",
+		"/H/Dropbox/maketir/watch/js/vendor/jquery.dotdotdot.min.js",
+		"/H/LOFTBOX/loftblog первый поток/Вебинары и уроки/19 - JS магазин 5 - заканчиваем с кодом/www/Gruntfile.js",
+		"/H/Dropbox/LOFT/hw1/assets/css/main.css",
+		"/C/Documents and Settings/user/Local Settings/Temp/7zO2BF.tmp/1.txt",
+		"/C/Documents and Settings/user/Local Settings/Temp/7zO2BD.tmp/1.txt",
+		"/H/Dropbox/maketir/uninstall.sh",
+		"/H/Dropbox/maketir/install.sh",
+		"/C/Documents and Settings/user/Local Settings/Temp/7zODB9.tmp/1.txt",
+		"/G/НИКОТРА/Порядок установки программы.txt",
+		"/C/Documents and Settings/user/Local Settings/Temp/7zOA07.tmp/1.txt",
+		"/C/Documents and Settings/user/Local Settings/Temp/7zOA05.tmp/1.txt",
+		"/H/Dropbox/Экскаватор/excavator_jaune/excavator_jaune.txt",
+		"/C/Documents and Settings/user/Рабочий стол/dev.sh",
+		"/C/Documents and Settings/user/Application Data/Microsoft/Internet Explorer/Quick Launch/Свернуть все окна.scf",
+		"/H/Dropbox/maketir/assets/css/screen.css",
+		"/H/Dropbox/maketir/assets/css/lightbox.css",
+		"/C/Documents and Settings/user/Local Settings/Temp/Временная папка 1 для KOMPAS-3D_V15_SP1_antiHASP.zip/Читать.txt",
+		"/C/Documents and Settings/user/Local Settings/Temp/7zO559.tmp/1.txt",
+		"/C/Documents and Settings/user/Local Settings/Temp/7zO5AC.tmp/1.txt",
+		"/C/Documents and Settings/user/Local Settings/Temp/7zO522.tmp/1.txt",
+		"/C/Documents and Settings/user/Local Settings/Temp/7zO51B.tmp/1.txt",
+		"/C/Documents and Settings/user/Local Settings/Temp/7zO51F.tmp/1.txt",
+		"/C/Documents and Settings/user/Application Data/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings",
+		"/H/Dropbox/maketir/node_modules/gulp-concat-css/node_modules/through2/node_modules/xtend/node_modules/object-keys/isArguments.js",
+		"/H/Dropbox/maketir/node_modules/gulp-autoprefixer/node_modules/autoprefixer-core/node_modules/caniuse-db/features-json/png-alpha.json",
+		"/C/Program Files/Sublime Text 3/changelog.txt",
+		"/C/Documents and Settings/user/Local Settings/Temp/Rar$DI00.375/1.txt",
+		"/C/Documents and Settings/user/Рабочий стол/__Prog/_Номера программ.txt",
+		"/H/Dropbox/LOFT/hw1/subj/index.html",
+		"/H/Dropbox/LOFT/hw1/subj/js/main.js",
+		"/H/Dropbox/LOFT/hw1/subj/css/main.css",
+		"/H/Dropbox/LOFT/hw1/subj/gulpfile.js",
+		"/H/Dropbox/tests/irmologion/stylesheet.css",
+		"/H/Dropbox/tests/irmologion/index.html",
+		"/H/Dropbox/LOFT/hw1/subj/js/vendor/bootstrap.min.js",
+		"/H/Dropbox/LOFT/hw1/subj/css/bootstrap.min.css",
+		"/H/Dropbox/LOFT/hw1/subj/fonts/glyphicons-halflings-regular.svg",
+		"/H/Dropbox/LOFT/hw1/subj/humans.txt",
+		"/H/Dropbox/Tests/backbone/css/screen.css",
+		"/H/Dropbox/Tests/backbone/index.html",
+		"/H/Dropbox/Tests/backbone/js/app.js",
+		"/H/Dropbox/Tests/backbone/backbone.sublime-project",
+		"/C/Documents and Settings/user/Local Settings/Temp/Rar$DI00.313/1.txt",
+		"/C/Documents and Settings/user/Local Settings/Temp/Rar$DI02.469/1.txt",
+		"/H/Dropbox/Дмт Лфрв.txt",
+		"/H/Dropbox/Генеалогическое древо.txt",
+		"/C/Documents and Settings/user/Local Settings/Temp/Rar$DI01.734/1.txt",
+		"/H/Dropbox/Служба/Шпаргалка, чтобы выучить правило.txt",
+		"/H/Dropbox/Книги на телефоне и в читалке/Вечернее правило.txt",
+		"/H/Dropbox/Служба/Схема богослужения.txt",
+		"/H/Dropbox/hello2.html",
+		"/C/Documents and Settings/user/Local Settings/Temp/Rar$DI01.484/1.txt",
+		"/H/Новая папка/Святитель Феофан Затворник - Полное собрание творений - 2008.doc/Болезнь и смерть.txt",
+		"/C/Documents and Settings/user/Local Settings/Temp/Rar$DI00.922/1.txt"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"vytaflex60",
+			"class",
+			"class\n",
+			"class*\n",
+			"class\n",
+			"\">\n",
+			"span",
+			".\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"div"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "assets/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 24074,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9655,
+								9655
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2214.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "maketir.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"H:\\Dropbox\\sites\\ButtonGenerator\\buttonGenerator.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 263.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 1
+	}
+}

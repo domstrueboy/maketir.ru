@@ -1,0 +1,2206 @@
+{
+    "blocks": [  
+        {
+            "num" : "1",
+            "rus" : "Polytek 30, 45",
+            "alias" : "polytek",
+            "components" : "A + B",
+            "componentA" : "1",
+            "componentB" : "1",
+            "systemAB" : "2",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "polyuretans"],
+            "categoryRus" : "ПОЛИУРЕТАНЫ"
+        },
+
+        {
+            "num" : "2",
+            "rus" : "Polytek 30, 45",
+            "alias" : "polytek",
+            "components" : "A + B",
+            "componentA" : "3,75",
+            "componentB" : "3,75",
+            "systemAB" : "7,5",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "polyuretans"],
+            "categoryRus" : "ПОЛИУРЕТАНЫ"
+        },
+
+        {
+            "num" : "3",
+            "rus" : "Polytek 30, 45",
+            "alias" : "polytek",
+            "components" : "A + B",
+            "componentA" : "18",
+            "componentB" : "18",
+            "systemAB" : "36",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "polyuretans"],
+            "categoryRus" : "ПОЛИУРЕТАНЫ"
+        },
+
+        {
+            "num" : "4",
+            "rus" : "Vytaflex  20",
+            "alias" : "vytaflex",
+            "components" : "A + B",
+            "componentA" : "3,63",
+            "componentB" : "3,63",
+            "systemAB" : "7,26",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "polyuretans"],
+            "categoryRus" : "ПОЛИУРЕТАНЫ"
+        },
+
+        {
+            "num" : "5",
+            "rus" : "Vytaflex  30",
+            "alias" : "vytaflex",
+            "components" : "A + B",
+            "componentA" : "3,63",
+            "componentB" : "3,63",
+            "systemAB" : "7,26",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "polyuretans"],
+            "categoryRus" : "ПОЛИУРЕТАНЫ"
+        },
+
+        {
+            "num" : "6",
+            "rus" : "Vytaflex  30",
+            "alias" : "vytaflex",
+            "components" : "A + B",
+            "componentA" : "18,14",
+            "componentB" : "18,14",
+            "systemAB" : "36,28",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "polyuretans"],
+            "categoryRus" : "ПОЛИУРЕТАНЫ"
+        },
+
+        {
+            "num" : "7",
+            "rus" : "Vytaflex  40",
+            "alias" : "vytaflex",
+            "components" : "A + B",
+            "componentA" : "0,45",
+            "componentB" : "0,45",
+            "systemAB" : "0,90",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "polyuretans"],
+            "categoryRus" : "ПОЛИУРЕТАНЫ"
+        },
+
+        {
+            "num" : "8",
+            "rus" : "Vytaflex  40",
+            "alias" : "vytaflex",
+            "components" : "A + B",
+            "componentA" : "3,63",
+            "componentB" : "3,63",
+            "systemAB" : "7,26",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "polyuretans"],
+            "categoryRus" : "ПОЛИУРЕТАНЫ"
+        },
+
+        {
+            "num" : "9",
+            "rus" : "Vytaflex  40",
+            "alias" : "vytaflex",
+            "components" : "A + B",
+            "componentA" : "18,14",
+            "componentB" : "18,14",
+            "systemAB" : "36,28",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "polyuretans"],
+            "categoryRus" : "ПОЛИУРЕТАНЫ"
+        },
+
+        {
+            "num" : "10",
+            "rus" : "Vytaflex  60",
+            "alias" : "vytaflex",
+            "components" : "A + B",
+            "componentA" : "3,63",
+            "componentB" : "3,63",
+            "systemAB" : "7,26",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "polyuretans"],
+            "categoryRus" : "ПОЛИУРЕТАНЫ"
+        },
+
+        {
+            "num" : "11",
+            "rus" : "Vytaflex  60",
+            "alias" : "vytaflex",
+            "components" : "A + B",
+            "componentA" : "18,14",
+            "componentB" : "18,14",
+            "systemAB" : "36,28",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "polyuretans"],
+            "categoryRus" : "ПОЛИУРЕТАНЫ"
+        },
+
+        {
+            "num" : "12",
+            "rus" : "Brush On 40",
+            "alias" : "brushOn",
+            "components" : "A + B",
+            "componentA" : "0,36",
+            "componentB" : "0,45",
+            "systemAB" : "0,81",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "polyuretans"],
+            "categoryRus" : "ПОЛИУРЕТАНЫ"
+        },
+
+        {
+            "num" : "13",
+            "rus" : "Brush On 40",
+            "alias" : "brushOn",
+            "components" : "A + B",
+            "componentA" : "3,63",
+            "componentB" : "4,54",
+            "systemAB" : "8,17",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "polyuretans"],
+            "categoryRus" : "ПОЛИУРЕТАНЫ"
+        },
+
+        {
+            "num" : "14",
+            "rus" : "Clear Flex 50",
+            "alias" : "clearFlex",
+            "components" : "A + B",
+            "componentA" : "0,45",
+            "componentB" : "0,91",
+            "systemAB" : "1,36",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "polyuretans"],
+            "categoryRus" : "ПОЛИУРЕТАНЫ"
+        },
+
+        {
+            "num" : "15",
+            "rus" : "Clear Flex 95",
+            "alias" : "clearFlex",
+            "components" : "A + B",
+            "componentA" : "3,86",
+            "componentB" : "2 x 2,9",
+            "systemAB" : "9,6",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "polyuretans"],
+            "categoryRus" : "ПОЛИУРЕТАНЫ"
+        },
+
+        {
+            "num" : "16",
+            "rus" : "PMC-770, 80, 90",
+            "alias" : "PMC",
+            "components" : "2A + B",
+            "componentA" : "0,91",
+            "componentB" : "0,45",
+            "systemAB" : "1,36",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "polyuretans"],
+            "categoryRus" : "ПОЛИУРЕТАНЫ"
+        },
+
+        {
+            "num" : "17",
+            "rus" : "PMC-770, 80, 90",
+            "alias" : "PMC",
+            "components" : "2A + B",
+            "componentA" : "7,20",
+            "componentB" : "3,60",
+            "systemAB" : "10,80",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "polyuretans"],
+            "categoryRus" : "ПОЛИУРЕТАНЫ"
+        },
+
+        {
+            "num" : "18",
+            "rus" : "PMC-770, 80, 90",
+            "alias" : "PMC",
+            "components" : "2A + B",
+            "componentA" : "36,28",
+            "componentB" : "18,14",
+            "systemAB" : "54,94",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "polyuretans"],
+            "categoryRus" : "ПОЛИУРЕТАНЫ"
+        },
+
+        {
+            "num" : "19",
+            "rus" : "АДВ-22 (С) марка 40",
+            "alias" : "ADV",
+            "components" : "2,5A + B",
+            "componentA" : "2,50",
+            "componentB" : "1,00",
+            "systemAB" : "3,50",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "polyuretans"],
+            "categoryRus" : "ПОЛИУРЕТАНЫ"
+        },
+
+        {
+            "num" : "20",
+            "rus" : "АДВ-22 (С) марка 60",
+            "alias" : "ADV",
+            "components" : "2A + B",
+            "componentA" : "2,00",
+            "componentB" : "1,00",
+            "systemAB" : "3,00",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "polyuretans"],
+            "categoryRus" : "ПОЛИУРЕТАНЫ"
+        },
+
+        {
+            "num" : "21",
+            "rus" : "Foam-iT ! 5, 3",
+            "alias" : "foamIt",
+            "components" : "A + B",
+            "componentA" : "0,45",
+            "componentB" : "0,41",
+            "systemAB" : "0,86",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "penopolyuretans"],
+            "categoryRus" : "ПЕНОПОЛИУРЕТАНЫ"
+        },
+
+        {
+            "num" : "22",
+            "rus" : "Foam-iT ! 5, 3",
+            "alias" : "foamIt",
+            "components" : "A + B",
+            "componentA" : "3,63",
+            "componentB" : "3,18",
+            "systemAB" : "6,81",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "penopolyuretans"],
+            "categoryRus" : "ПЕНОПОЛИУРЕТАНЫ"
+        },
+
+        {
+            "num" : "23",
+            "rus" : "Foam-iT ! 8",
+            "alias" : "foamIt",
+            "components" : "A + B",
+            "componentA" : "0,91",
+            "componentB" : "0,45",
+            "systemAB" : "1,36",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "penopolyuretans"],
+            "categoryRus" : "ПЕНОПОЛИУРЕТАНЫ"
+        },
+
+        {
+            "num" : "24",
+            "rus" : "Foam-iT ! 8",
+            "alias" : "foamIt",
+            "components" : "A + B",
+            "componentA" : "7,26",
+            "componentB" : "3,63",
+            "systemAB" : "10,89",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "penopolyuretans"],
+            "categoryRus" : "ПЕНОПОЛИУРЕТАНЫ"
+        },
+
+        {
+            "num" : "25",
+            "rus" : "FlexFoam-iT! III",
+            "alias" : "flexFoamIt",
+            "components" : "A + B",
+            "componentA" : "3,63",
+            "componentB" : "6,36",
+            "systemAB" : "9,99",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "penopolyuretans"],
+            "categoryRus" : "ПЕНОПОЛИУРЕТАНЫ"
+        },
+
+        {
+            "num" : "26",
+            "rus" : "FlexFoam-iT! V",
+            "alias" : "flexFoamIt",
+            "components" : "A + B",
+            "componentA" : "0,45",
+            "componentB" : "0,43",
+            "systemAB" : "0,88",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "penopolyuretans"],
+            "categoryRus" : "ПЕНОПОЛИУРЕТАНЫ"
+        },
+
+        {
+            "num" : "27",
+            "rus" : "FlexFoam-iT! V, X",
+            "alias" : "flexFoamIt",
+            "components" : "A + B",
+            "componentA" : "3,63",
+            "componentB" : "3,45",
+            "systemAB" : "7,08",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "penopolyuretans"],
+            "categoryRus" : "ПЕНОПОЛИУРЕТАНЫ"
+        },
+
+        {
+            "num" : "28",
+            "rus" : "Foam-iT ! 25",
+            "alias" : "foamIt",
+            "components" : "A + B",
+            "componentA" : "7,26",
+            "componentB" : "3,63",
+            "systemAB" : "10,89",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "penopolyuretans"],
+            "categoryRus" : "ПЕНОПОЛИУРЕТАНЫ"
+        },
+
+        {
+            "num" : "29",
+            "rus" : "Smooth-Cast 300, 305, 310",
+            "alias" : "smoothCast",
+            "components" : "A + B",
+            "componentA" : "0,45",
+            "componentB" : "0,41",
+            "systemAB" : "0,86",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "castingPlastics"],
+            "categoryRus" : "ЗАЛИВОЧНЫЕ ПЛАСТИКИ"
+        },
+
+        {
+            "num" : "30",
+            "rus" : "Smooth-Cast 300, 305, 310",
+            "alias" : "smoothCast",
+            "components" : "A + B",
+            "componentA" : "3,36",
+            "componentB" : "3,63",
+            "systemAB" : "6,99",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "castingPlastics"],
+            "categoryRus" : "ЗАЛИВОЧНЫЕ ПЛАСТИКИ"
+        },
+
+        {
+            "num" : "31",
+            "rus" : "Smooth-Cast 325",
+            "alias" : "smoothCast",
+            "components" : "A + B",
+            "componentA" : "0,45",
+            "componentB" : "0,41",
+            "systemAB" : "0,86",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "castingPlastics"],
+            "categoryRus" : "ЗАЛИВОЧНЫЕ ПЛАСТИКИ"
+        },
+
+        {
+            "num" : "32",
+            "rus" : "Smooth-Cast 325",
+            "alias" : "smoothCast",
+            "components" : "A + B",
+            "componentA" : "3,63",
+            "componentB" : "3,18",
+            "systemAB" : "6,99",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "castingPlastics"],
+            "categoryRus" : "ЗАЛИВОЧНЫЕ ПЛАСТИКИ"
+        },
+
+        {
+            "num" : "33",
+            "rus" : "Smooth-Cast 60D, 45D",
+            "alias" : "smoothCast",
+            "components" : "A + B",
+            "componentA" : "0,50",
+            "componentB" : "0,45",
+            "systemAB" : "0,95",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "castingPlastics"],
+            "categoryRus" : "ЗАЛИВОЧНЫЕ ПЛАСТИКИ"
+        },
+
+        {
+            "num" : "34",
+            "rus" : "Smooth-Cast 60D, 45D",
+            "alias" : "smoothCast",
+            "components" : "A + B",
+            "componentA" : "4,08",
+            "componentB" : "3,63",
+            "systemAB" : "7,71",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "castingPlastics"],
+            "categoryRus" : "ЗАЛИВОЧНЫЕ ПЛАСТИКИ"
+        },
+
+        {
+            "num" : "35",
+            "rus" : "Smooth-Cast 65D (ROTO)",
+            "alias" : "smoothCast",
+            "components" : "A + B",
+            "componentA" : "0,45",
+            "componentB" : "0,45",
+            "systemAB" : "0,90",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "castingPlastics"],
+            "categoryRus" : "ЗАЛИВОЧНЫЕ ПЛАСТИКИ"
+        },
+
+        {
+            "num" : "36",
+            "rus" : "Smooth-Cast 65D (ROTO)",
+            "alias" : "smoothCast",
+            "components" : "A + B",
+            "componentA" : "",
+            "componentB" : "",
+            "systemAB" : "0,00",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "castingPlastics"],
+            "categoryRus" : "ЗАЛИВОЧНЫЕ ПЛАСТИКИ"
+        },
+
+        {
+            "num" : "37",
+            "rus" : "Smooth-Cast 65D (ROTO)",
+            "alias" : "smoothCast",
+            "components" : "A + B",
+            "componentA" : "",
+            "componentB" : "",
+            "systemAB" : "0,00",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "castingPlastics"],
+            "categoryRus" : "ЗАЛИВОЧНЫЕ ПЛАСТИКИ"
+        },
+
+        {
+            "num" : "38",
+            "rus" : "Feather Lite (пластик низкой плотности)",
+            "alias" : "featherLite",
+            "components" : "A + B",
+            "componentA" : "",
+            "componentB" : "",
+            "systemAB" : "0,00",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "castingPlastics"],
+            "categoryRus" : "ЗАЛИВОЧНЫЕ ПЛАСТИКИ"
+        },
+
+        {
+            "num" : "39",
+            "rus" : "Smooth-Cast ONYX",
+            "alias" : "smoothCast",
+            "components" : "A + B",
+            "componentA" : "4,08",
+            "componentB" : "3,40",
+            "systemAB" : "7,48",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "castingPlastics"],
+            "categoryRus" : "ЗАЛИВОЧНЫЕ ПЛАСТИКИ"
+        },
+
+        {
+            "num" : "40",
+            "rus" : "Task 2, 3",
+            "alias" : "task",
+            "components" : "A + B",
+            "componentA" : "0,45",
+            "componentB" : "0,41",
+            "systemAB" : "0,86",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "castingPlastics"],
+            "categoryRus" : "ЗАЛИВОЧНЫЕ ПЛАСТИКИ"
+        },
+
+        {
+            "num" : "41",
+            "rus" : "Task 2, 3",
+            "alias" : "task",
+            "components" : "A + B",
+            "componentA" : "3,86",
+            "componentB" : "3,40",
+            "systemAB" : "7,26",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "castingPlastics"],
+            "categoryRus" : "ЗАЛИВОЧНЫЕ ПЛАСТИКИ"
+        },
+
+        {
+            "num" : "42",
+            "rus" : "Task 4 83 D",
+            "alias" : "task",
+            "components" : "A + B",
+            "componentA" : "0,45",
+            "componentB" : "0,45",
+            "systemAB" : "0,90",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "castingPlastics"],
+            "categoryRus" : "ЗАЛИВОЧНЫЕ ПЛАСТИКИ"
+        },
+
+        {
+            "num" : "43",
+            "rus" : "Task 4 83 D",
+            "alias" : "task",
+            "components" : "A + B",
+            "componentA" : "3,63",
+            "componentB" : "3,63",
+            "systemAB" : "7,26",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "castingPlastics"],
+            "categoryRus" : "ЗАЛИВОЧНЫЕ ПЛАСТИКИ"
+        },
+
+        {
+            "num" : "44",
+            "rus" : "Task 8 80 D",
+            "alias" : "task",
+            "components" : "A + B",
+            "componentA" : "0,54",
+            "componentB" : "0,45",
+            "systemAB" : "0,99",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "castingPlastics"],
+            "categoryRus" : "ЗАЛИВОЧНЫЕ ПЛАСТИКИ"
+        },
+
+        {
+            "num" : "45",
+            "rus" : "Task 8 80 D",
+            "alias" : "task",
+            "components" : "A + B",
+            "componentA" : "4,08",
+            "componentB" : "3,40",
+            "systemAB" : "7,48",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "castingPlastics"],
+            "categoryRus" : "ЗАЛИВОЧНЫЕ ПЛАСТИКИ"
+        },
+
+        {
+            "num" : "46",
+            "rus" : "Task 8 80 D",
+            "alias" : "task",
+            "components" : "A + B",
+            "componentA" : "20,41",
+            "componentB" : "17,01",
+            "systemAB" : "37,42",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "castingPlastics"],
+            "categoryRus" : "ЗАЛИВОЧНЫЕ ПЛАСТИКИ"
+        },
+
+        {
+            "num" : "47",
+            "rus" : "Task 9 80 D",
+            "alias" : "task",
+            "components" : "A + B",
+            "componentA" : "0,45",
+            "componentB" : "0,41",
+            "systemAB" : "0,86",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "castingPlastics"],
+            "categoryRus" : "ЗАЛИВОЧНЫЕ ПЛАСТИКИ"
+        },
+
+        {
+            "num" : "48",
+            "rus" : "Task 9 80 D",
+            "alias" : "task",
+            "components" : "A + B",
+            "componentA" : "3,86",
+            "componentB" : "3,40",
+            "systemAB" : "7,26",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "castingPlastics"],
+            "categoryRus" : "ЗАЛИВОЧНЫЕ ПЛАСТИКИ"
+        },
+
+        {
+            "num" : "49",
+            "rus" : "Crystal Clear 200, 202, 204",
+            "alias" : "crystalClear",
+            "components" : "A + B",
+            "componentA" : "0,45",
+            "componentB" : "0,41",
+            "systemAB" : "0,86",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "castingPlastics"],
+            "categoryRus" : "ЗАЛИВОЧНЫЕ ПЛАСТИКИ"
+        },
+
+        {
+            "num" : "50",
+            "rus" : "Crystal Clear 200, 202, 204",
+            "alias" : "crystalClear",
+            "components" : "A + B",
+            "componentA" : "3,63",
+            "componentB" : "3,27",
+            "systemAB" : "6,90",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "castingPlastics"],
+            "categoryRus" : "ЗАЛИВОЧНЫЕ ПЛАСТИКИ"
+        },
+
+        {
+            "num" : "51",
+            "rus" : "Поликапролактон",
+            "alias" : "polycaprolacton",
+            "components" : "A",
+            "componentA" : "от 0,1 кг",
+            "componentB" : "",
+            "systemAB" : "1,00",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "castingPlastics"],
+            "categoryRus" : "ЗАЛИВОЧНЫЕ ПЛАСТИКИ"
+        },
+
+        {
+            "num" : "52",
+            "rus" : "Shell shock slow, fast (в намазку) вес 1,63",
+            "alias" : "shellShock",
+            "components" : "A + B",
+            "componentA" : "0,27",
+            "componentB" : "1,36",
+            "systemAB" : "1,63",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "castingPlastics"],
+            "categoryRus" : "ЗАЛИВОЧНЫЕ ПЛАСТИКИ"
+        },
+
+        {
+            "num" : "53",
+            "rus" : "Shell shock slow, fast (в намазку) вес 5,45",
+            "alias" : "shellShock",
+            "components" : "A + B",
+            "componentA" : "0,91",
+            "componentB" : "4,54",
+            "systemAB" : "5,45",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "castingPlastics"],
+            "categoryRus" : "ЗАЛИВОЧНЫЕ ПЛАСТИКИ"
+        },
+
+        {
+            "num" : "54",
+            "rus" : "Plasti Paste",
+            "alias" : "plastiPaste",
+            "components" : "A + 2B",
+            "componentA" : "0,45",
+            "componentB" : "1,10",
+            "systemAB" : "1,55",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "cover"],
+            "categoryRus" : "КОЖУХ"
+        },
+
+        {
+            "num" : "55",
+            "rus" : "Plasti Paste",
+            "alias" : "plastiPaste",
+            "components" : "A + 2B",
+            "componentA" : "1,54",
+            "componentB" : "3,63",
+            "systemAB" : "5,17",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "cover"],
+            "categoryRus" : "КОЖУХ"
+        },
+
+        {
+            "num" : "56",
+            "rus" : "SO-STRONG (оттеночный пигмент) голуб, желт, зелен, коричн, красн, оранж, фиолет, черн",
+            "alias" : "soStrong",
+            "components" : "",
+            "componentA" : "",
+            "componentB" : "",
+            "systemAB" : "0,06",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "agent"],
+            "categoryRus" : "ДОБАВКИ, КРАСИТЕЛИ, РАЗДЕЛИТЕЛЬНЫЕ СОСТАВЫ  ДЛЯ ПОЛИУРЕТАНОВ"
+        },
+
+        {
+            "num" : "57",
+            "rus" : "SO-STRONG, набор красок, 9 цв.",
+            "alias" : "soStrong",
+            "components" : "",
+            "componentA" : "",
+            "componentB" : "",
+            "systemAB" : "",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "agent"],
+            "categoryRus" : "ДОБАВКИ, КРАСИТЕЛИ, РАЗДЕЛИТЕЛЬНЫЕ СОСТАВЫ  ДЛЯ ПОЛИУРЕТАНОВ"
+        },
+
+        {
+            "num" : "58",
+            "rus" : "SO-STRONG (оттеноч. пигмент) белый",
+            "alias" : "soStrong",
+            "components" : "",
+            "componentA" : "",
+            "componentB" : "",
+            "systemAB" : "0,13",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "agent"],
+            "categoryRus" : "ДОБАВКИ, КРАСИТЕЛИ, РАЗДЕЛИТЕЛЬНЫЕ СОСТАВЫ  ДЛЯ ПОЛИУРЕТАНОВ"
+        },
+
+        {
+            "num" : "59",
+            "rus" : "SO-STRONG (оттеноч. пигмент) телесный",
+            "alias" : "soStrong",
+            "components" : "",
+            "componentA" : "",
+            "componentB" : "",
+            "systemAB" : "0,11",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "agent"],
+            "categoryRus" : "ДОБАВКИ, КРАСИТЕЛИ, РАЗДЕЛИТЕЛЬНЫЕ СОСТАВЫ  ДЛЯ ПОЛИУРЕТАНОВ"
+        },
+
+        {
+            "num" : "60",
+            "rus" : "Cast Magic Silver Bullet серебряная",
+            "alias" : "castMagic",
+            "components" : "",
+            "componentA" : "",
+            "componentB" : "",
+            "systemAB" : "0,014",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "agent"],
+            "categoryRus" : "ДОБАВКИ, КРАСИТЕЛИ, РАЗДЕЛИТЕЛЬНЫЕ СОСТАВЫ  ДЛЯ ПОЛИУРЕТАНОВ"
+        },
+
+        {
+            "num" : "61",
+            "rus" : "Cast Magic Bronzokonker бронзовая",
+            "alias" : "castMagic",
+            "components" : "",
+            "componentA" : "",
+            "componentB" : "",
+            "systemAB" : "0,014",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "agent"],
+            "categoryRus" : "ДОБАВКИ, КРАСИТЕЛИ, РАЗДЕЛИТЕЛЬНЫЕ СОСТАВЫ  ДЛЯ ПОЛИУРЕТАНОВ"
+        },
+
+        {
+            "num" : "62",
+            "rus" : "Cast Magic Gold Rush яркая золотая",
+            "alias" : "castMagic",
+            "components" : "",
+            "componentA" : "",
+            "componentB" : "",
+            "systemAB" : "0,02",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "agent"],
+            "categoryRus" : "ДОБАВКИ, КРАСИТЕЛИ, РАЗДЕЛИТЕЛЬНЫЕ СОСТАВЫ  ДЛЯ ПОЛИУРЕТАНОВ"
+        },
+
+        {
+            "num" : "63",
+            "rus" : "Sonite Wax II (герметик на основе воска)",
+            "alias" : "soniteWax",
+            "components" : "",
+            "componentA" : "",
+            "componentB" : "",
+            "systemAB" : "0,79",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "agent"],
+            "categoryRus" : "ДОБАВКИ, КРАСИТЕЛИ, РАЗДЕЛИТЕЛЬНЫЕ СОСТАВЫ  ДЛЯ ПОЛИУРЕТАНОВ"
+        },
+
+        {
+            "num" : "64",
+            "rus" : "Пудра Brass (желт.медь)  0,45/шт",
+            "alias" : "powder",
+            "components" : "",
+            "componentA" : "",
+            "componentB" : "",
+            "systemAB" : "1,00",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "agent"],
+            "categoryRus" : "ДОБАВКИ, КРАСИТЕЛИ, РАЗДЕЛИТЕЛЬНЫЕ СОСТАВЫ  ДЛЯ ПОЛИУРЕТАНОВ"
+        },
+
+        {
+            "num" : "65",
+            "rus" : "Пудра Bronze (бронза)  0,45/шт.",
+            "alias" : "powder",
+            "components" : "",
+            "componentA" : "",
+            "componentB" : "",
+            "systemAB" : "1,00",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "agent"],
+            "categoryRus" : "ДОБАВКИ, КРАСИТЕЛИ, РАЗДЕЛИТЕЛЬНЫЕ СОСТАВЫ  ДЛЯ ПОЛИУРЕТАНОВ"
+        },
+
+        {
+            "num" : "66",
+            "rus" : "Пудра Copper (красн.медь)  0,45/шт.",
+            "alias" : "powder",
+            "components" : "",
+            "componentA" : "",
+            "componentB" : "",
+            "systemAB" : "1,00",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "agent"],
+            "categoryRus" : "ДОБАВКИ, КРАСИТЕЛИ, РАЗДЕЛИТЕЛЬНЫЕ СОСТАВЫ  ДЛЯ ПОЛИУРЕТАНОВ"
+        },
+
+        {
+            "num" : "67",
+            "rus" : "Пудра Nickel/Silver (серебро)  0,45/шт.",
+            "alias" : "powder",
+            "components" : "",
+            "componentA" : "",
+            "componentB" : "",
+            "systemAB" : "1,00",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "agent"],
+            "categoryRus" : "ДОБАВКИ, КРАСИТЕЛИ, РАЗДЕЛИТЕЛЬНЫЕ СОСТАВЫ  ДЛЯ ПОЛИУРЕТАНОВ"
+        },
+
+        {
+            "num" : "68",
+            "rus" : "One Step (разделит.состав + капсулятор пор.)",
+            "alias" : "oneStep",
+            "components" : "",
+            "componentA" : "",
+            "componentB" : "",
+            "systemAB" : "2,86",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "agent"],
+            "categoryRus" : "ДОБАВКИ, КРАСИТЕЛИ, РАЗДЕЛИТЕЛЬНЫЕ СОСТАВЫ  ДЛЯ ПОЛИУРЕТАНОВ"
+        },
+
+        {
+            "num" : "69",
+            "rus" : "Разделительный состав в аэрозоле Universal mold release  0,310 мл.",
+            "alias" : "universalMold",
+            "components" : "",
+            "componentA" : "",
+            "componentB" : "",
+            "systemAB" : "1",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "agent"],
+            "categoryRus" : "ДОБАВКИ, КРАСИТЕЛИ, РАЗДЕЛИТЕЛЬНЫЕ СОСТАВЫ  ДЛЯ ПОЛИУРЕТАНОВ"
+        },
+
+        {
+            "num" : "70",
+            "rus" : "Клей для ПУ URE-BOND",
+            "alias" : "ureBond",
+            "components" : "A + B",
+            "componentA" : "0,45",
+            "componentB" : "0,42",
+            "systemAB" : "0,87",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "agent"],
+            "categoryRus" : "ДОБАВКИ, КРАСИТЕЛИ, РАЗДЕЛИТЕЛЬНЫЕ СОСТАВЫ  ДЛЯ ПОЛИУРЕТАНОВ"
+        },
+
+        {
+            "num" : "71",
+            "rus" : "Воск Polivaks SV-6, 0,8 кг/шт",
+            "alias" : "polivaks",
+            "components" : "",
+            "componentA" : "",
+            "componentB" : "",
+            "systemAB" : "1",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "agent"],
+            "categoryRus" : "ДОБАВКИ, КРАСИТЕЛИ, РАЗДЕЛИТЕЛЬНЫЕ СОСТАВЫ  ДЛЯ ПОЛИУРЕТАНОВ"
+        },
+
+        {
+            "num" : "72",
+            "rus" : "Kick-it (ускоритель для ПУ)",
+            "alias" : "kickIt",
+            "components" : "",
+            "componentA" : "",
+            "componentB" : "",
+            "systemAB" : "0,45",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "agent"],
+            "categoryRus" : "ДОБАВКИ, КРАСИТЕЛИ, РАЗДЕЛИТЕЛЬНЫЕ СОСТАВЫ  ДЛЯ ПОЛИУРЕТАНОВ"
+        },
+
+        {
+            "num" : "73",
+            "rus" : "ECORESIN SIMIL Ceramica белый",
+            "alias" : "ecoResin",
+            "components" : "",
+            "componentA" : "",
+            "componentB" : "",
+            "systemAB" : "1,00",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "acrylicCast"],
+            "categoryRus" : "АКРИЛОВЫЕ ГИПСЫ"
+        },
+
+        {
+            "num" : "74",
+            "rus" : "P-Cast (смола прозр.)",
+            "alias" : "pCast",
+            "components" : "В",
+            "componentA" : "",
+            "componentB" : "",
+            "systemAB" : "1,00",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "acrylicCast"],
+            "categoryRus" : "АКРИЛОВЫЕ ГИПСЫ"
+        },
+
+        {
+            "num" : "75",
+            "rus" : "P-Filler (ПЛАСТИКРИТ белый)",
+            "alias" : "pFiller",
+            "components" : "А",
+            "componentA" : "",
+            "componentB" : "",
+            "systemAB" : "1,00",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "acrylicCast"],
+            "categoryRus" : "АКРИЛОВЫЕ ГИПСЫ"
+        },
+
+        {
+            "num" : "76",
+            "rus" : "P-Filler (ПЛАСТИКРИТ серый)",
+            "alias" : "pFiller",
+            "components" : "А",
+            "componentA" : "",
+            "componentB" : "",
+            "systemAB" : "1,00",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "acrylicCast"],
+            "categoryRus" : "АКРИЛОВЫЕ ГИПСЫ"
+        },
+
+        {
+            "num" : "77",
+            "rus" : "Alcorsil 325 (красный)",
+            "alias" : "alcorsil",
+            "components" : "А+В",
+            "componentA" : "5",
+            "componentB" : "0,25",
+            "systemAB" : "5,25",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "tinSilicone"],
+            "categoryRus" : "СИЛИКОНЫ НА ОСНОВЕ ОЛОВА"
+        },
+
+        {
+            "num" : "78",
+            "rus" : "Сenusil M 380, 385",
+            "alias" : "cenusil",
+            "components" : "А+В",
+            "componentA" : "",
+            "componentB" : "",
+            "systemAB" : "1,00",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "tinSilicone"],
+            "categoryRus" : "СИЛИКОНЫ НА ОСНОВЕ ОЛОВА"
+        },
+
+        {
+            "num" : "79",
+            "rus" : "Mold Max 10, 20, 30, 40",
+            "alias" : "moldMax10",
+            "components" : "А+В",
+            "componentA" : "0,91",
+            "componentB" : "0,09",
+            "systemAB" : "1,00",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "tinSilicone"],
+            "categoryRus" : "СИЛИКОНЫ НА ОСНОВЕ ОЛОВА"
+        },
+
+        {
+            "num" : "80",
+            "rus" : "Mold Max 10, 20, 30, 40",
+            "alias" : "moldMax10",
+            "components" : "А+В",
+            "componentA" : "4,54",
+            "componentB" : "0,45",
+            "systemAB" : "4,99",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "tinSilicone"],
+            "categoryRus" : "СИЛИКОНЫ НА ОСНОВЕ ОЛОВА"
+        },
+
+        {
+            "num" : "81",
+            "rus" : "Mold Max 15T, 27Т",
+            "alias" : "moldMax15T",
+            "components" : "А+В",
+            "componentA" : "0,91",
+            "componentB" : "0,09",
+            "systemAB" : "1,00",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "tinSilicone"],
+            "categoryRus" : "СИЛИКОНЫ НА ОСНОВЕ ОЛОВА"
+        },
+
+        {
+            "num" : "82",
+            "rus" : "Mold Max 60",
+            "alias" : "moldMax60",
+            "components" : "А+В",
+            "componentA" : "1,00",
+            "componentB" : "0,03",
+            "systemAB" : "1,03",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "tinSilicone"],
+            "categoryRus" : "СИЛИКОНЫ НА ОСНОВЕ ОЛОВА"
+        },
+
+        {
+            "num" : "83",
+            "rus" : "Mold Max 60",
+            "alias" : "moldMax60",
+            "components" : "А+В",
+            "componentA" : "5,5",
+            "componentB" : "0,16",
+            "systemAB" : "5,66",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "tinSilicone"],
+            "categoryRus" : "СИЛИКОНЫ НА ОСНОВЕ ОЛОВА"
+        },
+
+        {
+            "num" : "84",
+            "rus" : "СДС-Б (+ катализатор К 18)",
+            "alias" : "SDS-B",
+            "components" : "А+В",
+            "componentA" : "1,00",
+            "componentB" : "0,007",
+            "systemAB" : "1,007",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "tinSilicone"],
+            "categoryRus" : "СИЛИКОНЫ НА ОСНОВЕ ОЛОВА"
+        },
+
+        {
+            "num" : "85",
+            "rus" : "Super Mold M10, М25, M30, M40",
+            "alias" : "superMoldM10",
+            "components" : "А+В",
+            "componentA" : "5,00",
+            "componentB" : "0,13",
+            "systemAB" : "5,13",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "tinSilicone"],
+            "categoryRus" : "СИЛИКОНЫ НА ОСНОВЕ ОЛОВА"
+        },
+
+        {
+            "num" : "86",
+            "rus" : "Super Mold M1010 (прозрачный)",
+            "alias" : "superMoldM1010",
+            "components" : "А+В",
+            "componentA" : "5,00",
+            "componentB" : "0,13",
+            "systemAB" : "5,13",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "tinSilicone"],
+            "categoryRus" : "СИЛИКОНЫ НА ОСНОВЕ ОЛОВА"
+        },
+
+        {
+            "num" : "87",
+            "rus" : "Poyo Patti 40 (силиконовая паста)",
+            "alias" : "poyoPatti",
+            "components" : "А+В",
+            "componentA" : "0,91",
+            "componentB" : "0,06",
+            "systemAB" : "0,97",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "tinSilicone"],
+            "categoryRus" : "СИЛИКОНЫ НА ОСНОВЕ ОЛОВА"
+        },
+
+        {
+            "num" : "88",
+            "rus" : "Dragon Skin 10, 20, 30",
+            "alias" : "dragonSkin",
+            "components" : "А+В",
+            "componentA" : "0,45",
+            "componentB" : "0,45",
+            "systemAB" : "0,9",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "platinumSilicone"],
+            "categoryRus" : "СИЛИКОНЫ НА ОСНОВЕ ПЛАТИНЫ"
+        },
+
+        {
+            "num" : "89",
+            "rus" : "Dragon Skin 10, 20, 30",
+            "alias" : "dragonSkin",
+            "components" : "А+В",
+            "componentA" : "3,63",
+            "componentB" : "3,63",
+            "systemAB" : "7,26",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "platinumSilicone"],
+            "categoryRus" : "СИЛИКОНЫ НА ОСНОВЕ ПЛАТИНЫ"
+        },
+
+        {
+            "num" : "90",
+            "rus" : "Ecoflex  00-30, 00-50",
+            "alias" : "ecoflex",
+            "components" : "А+В",
+            "componentA" : "3,63",
+            "componentB" : "3,63",
+            "systemAB" : "7,26",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "platinumSilicone"],
+            "categoryRus" : "СИЛИКОНЫ НА ОСНОВЕ ПЛАТИНЫ"
+        },
+
+        {
+            "num" : "91",
+            "rus" : "Ecoflex  00-30, 00-50",
+            "alias" : "ecoflex",
+            "components" : "А+В",
+            "componentA" : "0,45",
+            "componentB" : "0,45",
+            "systemAB" : "0,9",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "platinumSilicone"],
+            "categoryRus" : "СИЛИКОНЫ НА ОСНОВЕ ПЛАТИНЫ"
+        },
+
+        {
+            "num" : "92",
+            "rus" : "Equinox 35,38,40",
+            "alias" : "equinox",
+            "components" : "А+В",
+            "componentA" : "0,45",
+            "componentB" : "0,45",
+            "systemAB" : "0,9",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "platinumSilicone"],
+            "categoryRus" : "СИЛИКОНЫ НА ОСНОВЕ ПЛАТИНЫ"
+        },
+
+        {
+            "num" : "93",
+            "rus" : "Equinox 35,38,41",
+            "alias" : "equinox",
+            "components" : "А+В",
+            "componentA" : "3,63",
+            "componentB" : "3,63",
+            "systemAB" : "7,26",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "platinumSilicone"],
+            "categoryRus" : "СИЛИКОНЫ НА ОСНОВЕ ПЛАТИНЫ"
+        },
+
+        {
+            "num" : "94",
+            "rus" : "Encapso K",
+            "alias" : "encapso",
+            "components" : "А+В",
+            "componentA" : "0,5",
+            "componentB" : "0,5",
+            "systemAB" : "1,00",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "platinumSilicone"],
+            "categoryRus" : "СИЛИКОНЫ НА ОСНОВЕ ПЛАТИНЫ"
+        },
+
+        {
+            "num" : "95",
+            "rus" : "Encapso K",
+            "alias" : "encapso",
+            "components" : "А+В",
+            "componentA" : "3,63",
+            "componentB" : "3,63",
+            "systemAB" : "7,26",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "platinumSilicone"],
+            "categoryRus" : "СИЛИКОНЫ НА ОСНОВЕ ПЛАТИНЫ"
+        },
+
+        {
+            "num" : "96",
+            "rus" : "Elastosil M",
+            "alias" : "elastosil",
+            "components" : "А+В",
+            "componentA" : "5,00",
+            "componentB" : "0,50",
+            "systemAB" : "5,50",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "platinumSilicone"],
+            "categoryRus" : "СИЛИКОНЫ НА ОСНОВЕ ПЛАТИНЫ"
+        },
+
+        {
+            "num" : "97",
+            "rus" : "Sorta-Clear 40",
+            "alias" : "sortaClear",
+            "components" : "А+В",
+            "componentA" : "0,91",
+            "componentB" : "0,09",
+            "systemAB" : "1,00",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "platinumSilicone"],
+            "categoryRus" : "СИЛИКОНЫ НА ОСНОВЕ ПЛАТИНЫ"
+        },
+
+        {
+            "num" : "98",
+            "rus" : "Sorta-Clear 40",
+            "alias" : "sortaClear",
+            "components" : "А+В",
+            "componentA" : "4,09",
+            "componentB" : "0,4",
+            "systemAB" : "4,49",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "platinumSilicone"],
+            "categoryRus" : "СИЛИКОНЫ НА ОСНОВЕ ПЛАТИНЫ"
+        },
+
+        {
+            "num" : "99",
+            "rus" : "Sorta-Clear 40",
+            "alias" : "sortaClear",
+            "components" : "А+В",
+            "componentA" : "20,45",
+            "componentB" : "2,04",
+            "systemAB" : "22,49",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "platinumSilicone"],
+            "categoryRus" : "СИЛИКОНЫ НА ОСНОВЕ ПЛАТИНЫ"
+        },
+
+        {
+            "num" : "100",
+            "rus" : "Smooth-Sil, 940",
+            "alias" : "smoothSil",
+            "components" : "А+В",
+            "componentA" : "0,91",
+            "componentB" : "0,09",
+            "systemAB" : "1,00",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "platinumSilicone"],
+            "categoryRus" : "СИЛИКОНЫ НА ОСНОВЕ ПЛАТИНЫ"
+        },
+
+        {
+            "num" : "101",
+            "rus" : "Smooth-Sil, 940",
+            "alias" : "smoothSil",
+            "components" : "А+В",
+            "componentA" : "4,54",
+            "componentB" : "0,45",
+            "systemAB" : "4,99",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "platinumSilicone"],
+            "categoryRus" : "СИЛИКОНЫ НА ОСНОВЕ ПЛАТИНЫ"
+        },
+
+        {
+            "num" : "102",
+            "rus" : "SOMA FOAMA 15 (вспененный силикон)",
+            "alias" : "somaFoama",
+            "components" : "А+В",
+            "componentA" : "7,26",
+            "componentB" : "3,4",
+            "systemAB" : "10,66",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "platinumSilicone"],
+            "categoryRus" : "СИЛИКОНЫ НА ОСНОВЕ ПЛАТИНЫ"
+        },
+
+        {
+            "num" : "103",
+            "rus" : "Rebaund 25, 40 ( в намазку)",
+            "alias" : "rebaund",
+            "components" : "А+В",
+            "componentA" : "0,5",
+            "componentB" : "0,5",
+            "systemAB" : "1,00",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "platinumSilicone"],
+            "categoryRus" : "СИЛИКОНЫ НА ОСНОВЕ ПЛАТИНЫ"
+        },
+
+        {
+            "num" : "104",
+            "rus" : "Body Double",
+            "alias" : "bodyDouble",
+            "components" : "А+В",
+            "componentA" : "0,45",
+            "componentB" : "0,45",
+            "systemAB" : "0,90",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "platinumSilicone"],
+            "categoryRus" : "СИЛИКОНЫ НА ОСНОВЕ ПЛАТИНЫ"
+        },
+
+        {
+            "num" : "105",
+            "rus" : "Alja-Safe",
+            "alias" : "aljaSafe",
+            "components" : "",
+            "componentA" : "",
+            "componentB" : "",
+            "systemAB" : "1,36",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "platinumSilicone"],
+            "categoryRus" : "СИЛИКОНЫ НА ОСНОВЕ ПЛАТИНЫ"
+        },
+
+        {
+            "num" : "106",
+            "rus" : "Alja-Safe",
+            "alias" : "aljaSafe",
+            "components" : "",
+            "componentA" : "",
+            "componentB" : "",
+            "systemAB" : "9,07",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "platinumSilicone"],
+            "categoryRus" : "СИЛИКОНЫ НА ОСНОВЕ ПЛАТИНЫ"
+        },
+
+        {
+            "num" : "107",
+            "rus" : "MOLD STAR (15slow, 16 fast, 30)",
+            "alias" : "moldStar",
+            "components" : "А+В",
+            "componentA" : "4,08",
+            "componentB" : "4,08",
+            "systemAB" : "8,16",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "platinumSilicone"],
+            "categoryRus" : "СИЛИКОНЫ НА ОСНОВЕ ПЛАТИНЫ"
+        },
+
+        {
+            "num" : "108",
+            "rus" : "Thi-vex II - (тиксотропная сил.добавка)",
+            "alias" : "thiVex",
+            "components" : "",
+            "componentA" : "",
+            "componentB" : "",
+            "systemAB" : "0,41",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "AdditivesDyesSilicone"],
+            "categoryRus" : "ДОБАВКИ, КРАСИТЕЛИ ДЛЯ СИЛИКОНОВ"
+        },
+
+        {
+            "num" : "109",
+            "rus" : "Отвердитель Т-12 (Сenusil M 380, 385)",
+            "alias" : "t12",
+            "components" : "",
+            "componentA" : "",
+            "componentB" : "",
+            "systemAB" : "0,03",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "AdditivesDyesSilicone"],
+            "categoryRus" : "ДОБАВКИ, КРАСИТЕЛИ ДЛЯ СИЛИКОНОВ"
+        },
+
+        {
+            "num" : "110",
+            "rus" : "Silc Pig набор 9 цв.(пигменты для силикона), руб./шт.",
+            "alias" : "silcPig",
+            "components" : "",
+            "componentA" : "",
+            "componentB" : "",
+            "systemAB" : "1,00",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "AdditivesDyesSilicone"],
+            "categoryRus" : "ДОБАВКИ, КРАСИТЕЛИ ДЛЯ СИЛИКОНОВ"
+        },
+
+        {
+            "num" : "111",
+            "rus" : "Silc Pig (пигменты для силикона)",
+            "alias" : "silcPig",
+            "components" : "",
+            "componentA" : "",
+            "componentB" : "",
+            "systemAB" : "0,113",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "AdditivesDyesSilicone"],
+            "categoryRus" : "ДОБАВКИ, КРАСИТЕЛИ ДЛЯ СИЛИКОНОВ"
+        },
+
+        {
+            "num" : "112",
+            "rus" : "Psycho Paint (основа для силикон.красок)",
+            "alias" : "psychoPaint",
+            "components" : "А+В",
+            "componentA" : "0,45",
+            "componentB" : "0,45",
+            "systemAB" : "0,9",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "AdditivesDyesSilicone"],
+            "categoryRus" : "ДОБАВКИ, КРАСИТЕЛИ ДЛЯ СИЛИКОНОВ"
+        },
+
+        {
+            "num" : "113",
+            "rus" : "Psycho Paint (основа для силикон.красок)",
+            "alias" : "psychoPaint",
+            "components" : "А+В",
+            "componentA" : "0,113",
+            "componentB" : "0,113",
+            "systemAB" : "0,226",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "AdditivesDyesSilicone"],
+            "categoryRus" : "ДОБАВКИ, КРАСИТЕЛИ ДЛЯ СИЛИКОНОВ"
+        },
+
+        {
+            "num" : "114",
+            "rus" : "Sil-poxy (клей для силиконов)",
+            "alias" : "silPoxy",
+            "components" : "",
+            "componentA" : "",
+            "componentB" : "",
+            "systemAB" : "0,017",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "AdditivesDyesSilicone"],
+            "categoryRus" : "ДОБАВКИ, КРАСИТЕЛИ ДЛЯ СИЛИКОНОВ"
+        },
+
+        {
+            "num" : "115",
+            "rus" : "SkinTite (силиконовый биологический клей)",
+            "alias" : "skinTite",
+            "components" : "A+B",
+            "componentA" : "0,113",
+            "componentB" : "0,113",
+            "systemAB" : "0,226",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "AdditivesDyesSilicone"],
+            "categoryRus" : "ДОБАВКИ, КРАСИТЕЛИ ДЛЯ СИЛИКОНОВ"
+        },
+
+        {
+            "num" : "116",
+            "rus" : "Silicon Thinner (для понижения вязкости сил.)",
+            "alias" : "siliconThinner",
+            "components" : "",
+            "componentA" : "",
+            "componentB" : "",
+            "systemAB" : "3,63",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "AdditivesDyesSilicone"],
+            "categoryRus" : "ДОБАВКИ, КРАСИТЕЛИ ДЛЯ СИЛИКОНОВ"
+        },
+
+        {
+            "num" : "117",
+            "rus" : "Slacker (добавка для плат.сил.)",
+            "alias" : "slacker",
+            "components" : "",
+            "componentA" : "",
+            "componentB" : "",
+            "systemAB" : "3,63",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "AdditivesDyesSilicone"],
+            "categoryRus" : "ДОБАВКИ, КРАСИТЕЛИ ДЛЯ СИЛИКОНОВ"
+        },
+
+        {
+            "num" : "118",
+            "rus" : "Силиконовая смазка 'ВЭЛВ' (спрей)",
+            "alias" : "VELV",
+            "components" : "",
+            "componentA" : "",
+            "componentB" : "",
+            "systemAB" : "0,40",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "AdditivesDyesSilicone"],
+            "categoryRus" : "ДОБАВКИ, КРАСИТЕЛИ ДЛЯ СИЛИКОНОВ"
+        },
+
+        {
+            "num" : "119",
+            "rus" : "Клей-компаунд ПЭО-510КЭ-20/0",
+            "alias" : "PEO",
+            "components" : "A+B",
+            "componentA" : "0,12",
+            "componentB" : "0,03",
+            "systemAB" : "0,15",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "epoxy"],
+            "categoryRus" : "ЭПОКСИДНЫЕ СОСТАВЫ"
+        },
+
+        {
+            "num" : "120",
+            "rus" : "Клей-компаунд ПЭО-510КЭ-20/0",
+            "alias" : "PEO",
+            "components" : "A+B",
+            "componentA" : "0,24",
+            "componentB" : "0,06",
+            "systemAB" : "0,30",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "epoxy"],
+            "categoryRus" : "ЭПОКСИДНЫЕ СОСТАВЫ"
+        },
+
+        {
+            "num" : "121",
+            "rus" : "Клей-компаунд ПЭО-510КЭ-20/0",
+            "alias" : "PEO",
+            "components" : "A+B",
+            "componentA" : "0,96",
+            "componentB" : "0,24",
+            "systemAB" : "1,20",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "epoxy"],
+            "categoryRus" : "ЭПОКСИДНЫЕ СОСТАВЫ"
+        },
+
+        {
+            "num" : "122",
+            "rus" : "EpoxAcoat RED",
+            "alias" : "epoxAcoat",
+            "components" : "A+B",
+            "componentA" : "0,91",
+            "componentB" : "0,14",
+            "systemAB" : "1,05",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "epoxy"],
+            "categoryRus" : "ЭПОКСИДНЫЕ СОСТАВЫ"
+        },
+
+        {
+            "num" : "123",
+            "rus" : "EpoxAcoat 690",
+            "alias" : "epoxAcoat",
+            "components" : "A+B",
+            "componentA" : "0,91",
+            "componentB" : "0,27",
+            "systemAB" : "1,18",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "epoxy"],
+            "categoryRus" : "ЭПОКСИДНЫЕ СОСТАВЫ"
+        },
+
+        {
+            "num" : "124",
+            "rus" : "Пластилин Le Beau Touche - HM(пр-во Италия)",
+            "alias" : "leBeau",
+            "components" : "коричневый",
+            "componentA" : "",
+            "componentB" : "",
+            "systemAB" : "0,906",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "sculpturalPlasticine"],
+            "categoryRus" : "ПЛАСТИЛИН СКУЛЬПТУРНЫЙ"
+        },
+
+        {
+            "num" : "125",
+            "rus" : "Пластилин NSP Medium (пр-во Италия)",
+            "alias" : "NSPMedium",
+            "components" : "зелёный",
+            "componentA" : "",
+            "componentB" : "",
+            "systemAB" : "0,906",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "sculpturalPlasticine"],
+            "categoryRus" : "ПЛАСТИЛИН СКУЛЬПТУРНЫЙ"
+        },
+
+        {
+            "num" : "126",
+            "rus" : "Пластилин NSP Hard (пр-во Италия)",
+            "alias" : "NSPHard",
+            "components" : "коричневый",
+            "componentA" : "",
+            "componentB" : "",
+            "systemAB" : "0,906",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "sculpturalPlasticine"],
+            "categoryRus" : "ПЛАСТИЛИН СКУЛЬПТУРНЫЙ"
+        },
+
+        {
+            "num" : "127",
+            "rus" : "Пластилин Оливковый Т, М (пр-во Россия)",
+            "alias" : "plasticineOlive",
+            "components" : "оливковый",
+            "componentA" : "",
+            "componentB" : "",
+            "systemAB" : "1,00",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "sculpturalPlasticine"],
+            "categoryRus" : "ПЛАСТИЛИН СКУЛЬПТУРНЫЙ"
+        },
+
+        {
+            "num" : "128",
+            "rus" : "Пластилин Телесный   Т, М (пр-во Россия)",
+            "alias" : "plasticineBody",
+            "components" : "телесный",
+            "componentA" : "",
+            "componentB" : "",
+            "systemAB" : "1,00",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "sculpturalPlasticine"],
+            "categoryRus" : "ПЛАСТИЛИН СКУЛЬПТУРНЫЙ"
+        },
+
+        {
+            "num" : "129",
+            "rus" : "Eskim ES 1060",
+            "alias" : "eskimES1060",
+            "components" : "разлив от 1 кг",
+            "componentA" : "",
+            "componentB" : "",
+            "systemAB" : "18,00",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "polyesterPitch"],
+            "categoryRus" : "СМОЛЫ ПОЛИЭФИРНЫЕ"
+        },
+
+        {
+            "num" : "130",
+            "rus" : "Eskim ES 5010 Button Polyest(прозрачная)",
+            "alias" : "eskimES5010BP",
+            "components" : "",
+            "componentA" : "",
+            "componentB" : "",
+            "systemAB" : "20,00",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "polyesterPitch"],
+            "categoryRus" : "СМОЛЫ ПОЛИЭФИРНЫЕ"
+        },
+
+        {
+            "num" : "131",
+            "rus" : "Eskim ES 5010 Button Polyest(прозрачная)",
+            "alias" : "eskimES5010BP",
+            "components" : "",
+            "componentA" : "",
+            "componentB" : "",
+            "systemAB" : "230,00",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "polyesterPitch"],
+            "categoryRus" : "СМОЛЫ ПОЛИЭФИРНЫЕ"
+        },
+
+        {
+            "num" : "132",
+            "rus" : "Полиэфирный спрей (прозрачный) ES-5900 PG",
+            "alias" : "ES5900PG",
+            "components" : "разлив от 1 кг",
+            "componentA" : "",
+            "componentB" : "",
+            "systemAB" : "20,00",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "polyesterPitch"],
+            "categoryRus" : "СМОЛЫ ПОЛИЭФИРНЫЕ"
+        },
+
+        {
+            "num" : "133",
+            "rus" : "Катализатор Бутанокс М-50(для BRE-320 K)",
+            "alias" : "butanox",
+            "components" : "",
+            "componentA" : "",
+            "componentB" : "",
+            "systemAB" : "0,3",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "resinAdditive"],
+            "categoryRus" : "ДОБАВКИ К СМОЛАМ"
+        },
+
+        {
+            "num" : "134",
+            "rus" : "Ускоритель (0,15) 6%",
+            "alias" : "accelerator",
+            "components" : "",
+            "componentA" : "",
+            "componentB" : "",
+            "systemAB" : "0,002",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "resinAdditive"],
+            "categoryRus" : "ДОБАВКИ К СМОЛАМ"
+        },
+
+        {
+            "num" : "135",
+            "rus" : "Curox M302 (метилэтилкетон пероксид)",
+            "alias" : "curox",
+            "components" : "",
+            "componentA" : "",
+            "componentB" : "",
+            "systemAB" : "0,5",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "resinAdditive"],
+            "categoryRus" : "ДОБАВКИ К СМОЛАМ"
+        },
+
+        {
+            "num" : "136",
+            "rus" : "(для смолы Eskim ES 1060)",
+            "alias" : "eskimES1060",
+            "components" : "",
+            "componentA" : "",
+            "componentB" : "",
+            "systemAB" : "",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "resinAdditive"],
+            "categoryRus" : "ДОБАВКИ К СМОЛАМ"
+        },
+
+        {
+            "num" : "137",
+            "rus" : "Октоат кобальта СО-1 6%",
+            "alias" : "cobaltOctoate",
+            "components" : "",
+            "componentA" : "",
+            "componentB" : "",
+            "systemAB" : "0,5",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "resinAdditive"],
+            "categoryRus" : "ДОБАВКИ К СМОЛАМ"
+        },
+
+        {
+            "num" : "138",
+            "rus" : "Гидроксид алюминия  ALOLT 1 AF",
+            "alias" : "ALOLT1",
+            "components" : "",
+            "componentA" : "",
+            "componentB" : "",
+            "systemAB" : "1,0",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "resinAdditive"],
+            "categoryRus" : "ДОБАВКИ К СМОЛАМ"
+        },
+
+        {
+            "num" : "139",
+            "rus" : "Гидроксид алюминия  ALOLT 21 AF",
+            "alias" : "ALOLT21",
+            "components" : "",
+            "componentA" : "",
+            "componentB" : "",
+            "systemAB" : "1,0",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "resinAdditive"],
+            "categoryRus" : "ДОБАВКИ К СМОЛАМ"
+        },
+
+        {
+            "num" : "140",
+            "rus" : "Алюминия тригидрат Aluprem TLV-103",
+            "alias" : "aluprem",
+            "components" : "",
+            "componentA" : "",
+            "componentB" : "",
+            "systemAB" : "1,0",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "resinAdditive"],
+            "categoryRus" : "ДОБАВКИ К СМОЛАМ"
+        },
+
+        {
+            "num" : "141",
+            "rus" : "Микросферы стеклянные",
+            "alias" : "glassMicrosphere",
+            "components" : "",
+            "componentA" : "",
+            "componentB" : "",
+            "systemAB" : "7,40",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "resinAdditive"],
+            "categoryRus" : "ДОБАВКИ К СМОЛАМ"
+        },
+
+        {
+            "num" : "142",
+            "rus" : "Паста колеровочная Полимер 'О'",
+            "alias" : "tintPolymer",
+            "components" : "",
+            "componentA" : "",
+            "componentB" : "",
+            "systemAB" : "0,9",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "resinAdditive"],
+            "categoryRus" : "ДОБАВКИ К СМОЛАМ"
+        },
+
+        {
+            "num" : "143",
+            "rus" : "Паста колеровочная Полимер 'О' желтый (0,5кг)",
+            "alias" : "tintPolymer",
+            "components" : "шт",
+            "componentA" : "",
+            "componentB" : "",
+            "systemAB" : "1",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "resinAdditive"],
+            "categoryRus" : "ДОБАВКИ К СМОЛАМ"
+        },
+
+        {
+            "num" : "144",
+            "rus" : "Паста колеровочная Полимер 'О' зеленый (0,5кг)",
+            "alias" : "tintPolymer",
+            "components" : "шт",
+            "componentA" : "",
+            "componentB" : "",
+            "systemAB" : "1",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "resinAdditive"],
+            "categoryRus" : "ДОБАВКИ К СМОЛАМ"
+        },
+
+        {
+            "num" : "145",
+            "rus" : "Паста колеровочная Полимер 'О' коричневый (0,5кг)",
+            "alias" : "tintPolymer",
+            "components" : "шт",
+            "componentA" : "",
+            "componentB" : "",
+            "systemAB" : "1",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "resinAdditive"],
+            "categoryRus" : "ДОБАВКИ К СМОЛАМ"
+        },
+
+        {
+            "num" : "146",
+            "rus" : "Паста колеровочная Полимер 'О' оранжевый (0,5кг)",
+            "alias" : "tintPolymer",
+            "components" : "шт",
+            "componentA" : "",
+            "componentB" : "",
+            "systemAB" : "1",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "resinAdditive"],
+            "categoryRus" : "ДОБАВКИ К СМОЛАМ"
+        },
+
+        {
+            "num" : "147",
+            "rus" : "Паста колеровочная Полимер 'О' синий (0,6кг)",
+            "alias" : "tintPolymer",
+            "components" : "шт",
+            "componentA" : "",
+            "componentB" : "",
+            "systemAB" : "1",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "resinAdditive"],
+            "categoryRus" : "ДОБАВКИ К СМОЛАМ"
+        },
+
+        {
+            "num" : "148",
+            "rus" : "Паста колеровочная Полимер 'О'(0,14) серебро Eu",
+            "alias" : "tintPolymer",
+            "components" : "шт",
+            "componentA" : "",
+            "componentB" : "",
+            "systemAB" : "1",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "resinAdditive"],
+            "categoryRus" : "ДОБАВКИ К СМОЛАМ"
+        },
+
+        {
+            "num" : "149",
+            "rus" : "Паста колеровочная Полимер 'О'(0,17) золото металлик",
+            "alias" : "tintPolymer",
+            "components" : "шт",
+            "componentA" : "",
+            "componentB" : "",
+            "systemAB" : "1",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "resinAdditive"],
+            "categoryRus" : "ДОБАВКИ К СМОЛАМ"
+        },
+
+        {
+            "num" : "150",
+            "rus" : "Паста колеровочная Полимер 'О'(0,5) золотистый",
+            "alias" : "tintPolymer",
+            "components" : "шт",
+            "componentA" : "",
+            "componentB" : "",
+            "systemAB" : "1",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "resinAdditive"],
+            "categoryRus" : "ДОБАВКИ К СМОЛАМ"
+        },
+
+        {
+            "num" : "151",
+            "rus" : "Паста колеровочная Полимер 'О'(0,5) красный",
+            "alias" : "tintPolymer",
+            "components" : "шт",
+            "componentA" : "",
+            "componentB" : "",
+            "systemAB" : "1",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "resinAdditive"],
+            "categoryRus" : "ДОБАВКИ К СМОЛАМ"
+        },
+
+        {
+            "num" : "152",
+            "rus" : "Паста колеровочная Полимер 'О'(0,5) пурпурный 615",
+            "alias" : "tintPolymer",
+            "components" : "шт",
+            "componentA" : "",
+            "componentB" : "",
+            "systemAB" : "1",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "resinAdditive"],
+            "categoryRus" : "ДОБАВКИ К СМОЛАМ"
+        },
+
+        {
+            "num" : "153",
+            "rus" : "Паста колеровочная Полимер 'О'(0,6) черный конц. 606",
+            "alias" : "tintPolymer",
+            "components" : "шт",
+            "componentA" : "",
+            "componentB" : "",
+            "systemAB" : "1",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "resinAdditive"],
+            "categoryRus" : "ДОБАВКИ К СМОЛАМ"
+        },
+
+        {
+            "num" : "154",
+            "rus" : "Паста колеровочная Полимер 'О'(0,9) белый 610",
+            "alias" : "tintPolymer",
+            "components" : "шт",
+            "componentA" : "",
+            "componentB" : "",
+            "systemAB" : "1",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "resinAdditive"],
+            "categoryRus" : "ДОБАВКИ К СМОЛАМ"
+        },
+
+        {
+            "num" : "155",
+            "rus" : "Стеклоткань конструкционная Т-23 П",
+            "alias" : "glassFiber",
+            "components" : "",
+            "componentA" : "",
+            "componentB" : "",
+            "systemAB" : "1 пог.м",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "resinAdditive"],
+            "categoryRus" : "ДОБАВКИ К СМОЛАМ"
+        },
+
+        {
+            "num" : "156",
+            "rus" : "Стекломат Emulsion mat EMC 450",
+            "alias" : "EmulsionMat",
+            "components" : "",
+            "componentA" : "",
+            "componentB" : "",
+            "systemAB" : "1 кг",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "resinAdditive"],
+            "categoryRus" : "ДОБАВКИ К СМОЛАМ"
+        },
+
+        {
+            "num" : "157",
+            "rus" : "Декоративный наполнитель для жидкого гранита",
+            "alias" : "graniteFiller",
+            "components" : "коллекция NATURAL, CLEAR, BIG, GOLD, MONOCHROME, PASTEL, ORGANIK, BRILLIANT, CABARET, MIRAGE",
+            "componentA" : "",
+            "componentB" : "",
+            "systemAB" : "Стандартная фасовка для всех коллекций 1, 2, 3, 5, 10, 15, 25 кг",
+            "shortDescription" : "",
+            "description" : "",
+            "category" : ["all", "resinAdditive"],
+            "categoryRus" : "ДОБАВКИ К СМОЛАМ"
+        }
+
+    ]
+}
+
+
+
+

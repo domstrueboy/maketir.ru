@@ -1,10 +1,10 @@
 var gulp = require('gulp'), //Собственно Gulp JS
     minifyHTML = require('gulp-minify-html'), //Минификация html
     less = require('gulp-less'), //Препроцессор LESS
-    path = require('path'),
 	myth = require('gulp-myth'), // Myth - http://www.myth.io/ - добавляем с его помощью префиксы
     csso = require('gulp-csso'), // Минификация CSS
     imagemin = require('gulp-imagemin'), // Минификация изображений
+    pngcrush = require('imagemin-pngcrush'),
     uglify = require('gulp-uglify'), // Минификация JS
     concat = require('gulp-concat'); // Склейка файлов
     
@@ -67,8 +67,12 @@ gulp.task('build', function() {
         .pipe(gulp.dest('./build/js'));
 
     // image
-    gulp.src('./watch/img/**/*')
-        .pipe(imagemin()) //Сжатие изображений
+    gulp.src('./watch/**/*')
+        .pipe(imagemin({
+        	progressive: true,
+            svgoPlugins: [{removeViewBox: false}],
+            use: [pngcrush()]
+        })) //Сжатие изображений
         .pipe(gulp.dest('./build/img'));
         
 });
